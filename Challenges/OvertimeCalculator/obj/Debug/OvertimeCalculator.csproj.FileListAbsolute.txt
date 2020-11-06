@@ -1,0 +1,7 @@
+C:\Source\Challenges\OvertimeCalculator\bin\Debug\OvertimeCalculator.exe.config
+C:\Source\Challenges\OvertimeCalculator\bin\Debug\OvertimeCalculator.exe
+C:\Source\Challenges\OvertimeCalculator\bin\Debug\OvertimeCalculator.pdb
+C:\Source\Challenges\OvertimeCalculator\obj\Debug\OvertimeCalculator.csprojAssemblyReference.cache
+C:\Source\Challenges\OvertimeCalculator\obj\Debug\OvertimeCalculator.csproj.CoreCompileInputs.cache
+C:\Source\Challenges\OvertimeCalculator\obj\Debug\OvertimeCalculator.exe
+C:\Source\Challenges\OvertimeCalculator\obj\Debug\OvertimeCalculator.pdb

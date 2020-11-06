@@ -1,0 +1,7 @@
+C:\Source\SwitchLab\obj\Debug\SwitchLab.csprojAssemblyReference.cache
+C:\Source\SwitchLab\obj\Debug\SwitchLab.csproj.CoreCompileInputs.cache
+C:\Source\SwitchLab\bin\Debug\SwitchLab.exe.config
+C:\Source\SwitchLab\bin\Debug\SwitchLab.exe
+C:\Source\SwitchLab\bin\Debug\SwitchLab.pdb
+C:\Source\SwitchLab\obj\Debug\SwitchLab.exe
+C:\Source\SwitchLab\obj\Debug\SwitchLab.pdb

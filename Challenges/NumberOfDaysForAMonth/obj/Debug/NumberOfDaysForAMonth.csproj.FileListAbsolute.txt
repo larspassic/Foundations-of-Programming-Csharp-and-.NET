@@ -1,0 +1,7 @@
+C:\Source\Challenges\NumberOfDaysForAMonth\bin\Debug\NumberOfDaysForAMonth.exe.config
+C:\Source\Challenges\NumberOfDaysForAMonth\bin\Debug\NumberOfDaysForAMonth.exe
+C:\Source\Challenges\NumberOfDaysForAMonth\bin\Debug\NumberOfDaysForAMonth.pdb
+C:\Source\Challenges\NumberOfDaysForAMonth\obj\Debug\NumberOfDaysForAMonth.csprojAssemblyReference.cache
+C:\Source\Challenges\NumberOfDaysForAMonth\obj\Debug\NumberOfDaysForAMonth.csproj.CoreCompileInputs.cache
+C:\Source\Challenges\NumberOfDaysForAMonth\obj\Debug\NumberOfDaysForAMonth.exe
+C:\Source\Challenges\NumberOfDaysForAMonth\obj\Debug\NumberOfDaysForAMonth.pdb

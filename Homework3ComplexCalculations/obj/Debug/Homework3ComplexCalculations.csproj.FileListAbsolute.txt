@@ -1,0 +1,7 @@
+C:\Source\Homework3ComplexCalculations\bin\Debug\Homework3ComplexCalculations.exe.config
+C:\Source\Homework3ComplexCalculations\bin\Debug\Homework3ComplexCalculations.exe
+C:\Source\Homework3ComplexCalculations\bin\Debug\Homework3ComplexCalculations.pdb
+C:\Source\Homework3ComplexCalculations\obj\Debug\Homework3ComplexCalculations.csprojAssemblyReference.cache
+C:\Source\Homework3ComplexCalculations\obj\Debug\Homework3ComplexCalculations.csproj.CoreCompileInputs.cache
+C:\Source\Homework3ComplexCalculations\obj\Debug\Homework3ComplexCalculations.exe
+C:\Source\Homework3ComplexCalculations\obj\Debug\Homework3ComplexCalculations.pdb

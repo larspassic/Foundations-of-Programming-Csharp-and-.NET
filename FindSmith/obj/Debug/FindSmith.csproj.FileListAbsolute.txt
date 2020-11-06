@@ -1,0 +1,7 @@
+C:\Source\FindSmith\bin\Debug\FindSmith.exe.config
+C:\Source\FindSmith\bin\Debug\FindSmith.exe
+C:\Source\FindSmith\bin\Debug\FindSmith.pdb
+C:\Source\FindSmith\obj\Debug\FindSmith.csprojAssemblyReference.cache
+C:\Source\FindSmith\obj\Debug\FindSmith.csproj.CoreCompileInputs.cache
+C:\Source\FindSmith\obj\Debug\FindSmith.exe
+C:\Source\FindSmith\obj\Debug\FindSmith.pdb

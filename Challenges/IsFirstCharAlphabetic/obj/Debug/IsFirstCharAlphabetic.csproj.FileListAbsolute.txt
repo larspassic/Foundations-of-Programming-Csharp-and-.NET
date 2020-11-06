@@ -1,0 +1,7 @@
+C:\Source\Challenges\IsFirstCharAlphabetic\bin\Debug\IsFirstCharAlphabetic.exe.config
+C:\Source\Challenges\IsFirstCharAlphabetic\bin\Debug\IsFirstCharAlphabetic.exe
+C:\Source\Challenges\IsFirstCharAlphabetic\bin\Debug\IsFirstCharAlphabetic.pdb
+C:\Source\Challenges\IsFirstCharAlphabetic\obj\Debug\IsFirstCharAlphabetic.csprojAssemblyReference.cache
+C:\Source\Challenges\IsFirstCharAlphabetic\obj\Debug\IsFirstCharAlphabetic.csproj.CoreCompileInputs.cache
+C:\Source\Challenges\IsFirstCharAlphabetic\obj\Debug\IsFirstCharAlphabetic.exe
+C:\Source\Challenges\IsFirstCharAlphabetic\obj\Debug\IsFirstCharAlphabetic.pdb
