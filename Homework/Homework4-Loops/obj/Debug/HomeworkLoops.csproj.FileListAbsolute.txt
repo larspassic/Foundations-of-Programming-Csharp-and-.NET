@@ -1,0 +1,7 @@
+C:\Users\larspass\source\repos\HomeworkLoops\bin\Debug\HomeworkLoops.exe.config
+C:\Users\larspass\source\repos\HomeworkLoops\bin\Debug\HomeworkLoops.exe
+C:\Users\larspass\source\repos\HomeworkLoops\bin\Debug\HomeworkLoops.pdb
+C:\Users\larspass\source\repos\HomeworkLoops\obj\Debug\HomeworkLoops.csprojAssemblyReference.cache
+C:\Users\larspass\source\repos\HomeworkLoops\obj\Debug\HomeworkLoops.csproj.CoreCompileInputs.cache
+C:\Users\larspass\source\repos\HomeworkLoops\obj\Debug\HomeworkLoops.exe
+C:\Users\larspass\source\repos\HomeworkLoops\obj\Debug\HomeworkLoops.pdb
