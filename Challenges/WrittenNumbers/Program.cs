@@ -27,40 +27,57 @@ namespace WrittenNumbers
 
                 //Collect input as a string
                 string userInput = Console.ReadLine();
+
                 //Parse input as double
                 double userInputNumber = double.Parse(userInput);
 
-
                 //Calculate cents
-                double cents = userInputNumber * (double)100;
-                
-                //
-                //int x = (int)cents % 100;
-                //Console.WriteLine(x);
+                double cents = userInputNumber * 100;
+                cents = cents % 100;
+
+                //Simplify userInputNumber by removing cents
+                userInputNumber = userInputNumber - (cents / 100);
 
                 //Caclulate tens
                 double tens = userInputNumber % 100;
+
                 //Calculate hundreds
                 double hundreds = userInputNumber % 1000;
+
                 //Calculate thousands
                 double thousands = userInputNumber % 10000;
 
-                //Simplify thousands
+                //Simplify thousands by removing hundreds
                 thousands = thousands - hundreds;
-                //Boil down thousands
+                //Reduce thousands
                 thousands = thousands / 1000;
 
-                //Simplify hundreds
+                //Simplify hundreds by removing tens
                 hundreds = hundreds - tens;
-                //Boil down hundreds
+                //Reduce hundreds
                 hundreds = hundreds / 100;
 
 
-
-
-
                 //Write output to the user
-                Console.WriteLine($"{thousands} thousand {hundreds} hundred {tens} dollars and {cents} cents.");
+                string finalString = "";
+                
+                if (thousands > 0)
+                {
+                    finalString = $"{thousands} thousand ";
+                }
+                if (hundreds > 0)
+                {
+                    finalString = finalString + ($"{hundreds} hundred ");
+                }
+                if (tens > 0)
+                {
+                    finalString = finalString + ($"{tens} ");
+                }
+                
+                
+                finalString = finalString + "dollars ";
+                finalString = finalString + ($"and {cents} cents.");
+                Console.WriteLine(finalString);
                 Console.WriteLine();
 
             }
