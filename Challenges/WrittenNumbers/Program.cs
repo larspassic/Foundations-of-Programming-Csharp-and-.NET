@@ -73,9 +73,11 @@ namespace WrittenNumbers
                 {
                     finalString = finalString + ($"{tens} ");
                 }
-                
-                
-                finalString = finalString + "dollars ";
+                if (thousands > 0 || hundreds > 0 || tens > 0)
+                {
+                    finalString = finalString + "dollars ";
+                }
+
                 finalString = finalString + ($"and {cents} cents.");
                 Console.WriteLine(finalString);
                 Console.WriteLine();
