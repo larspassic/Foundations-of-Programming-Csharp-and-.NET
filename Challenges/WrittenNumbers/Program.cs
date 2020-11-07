@@ -52,7 +52,7 @@ namespace WrittenNumbers
 
 
                 //Write output to the user
-                Console.WriteLine($"{th} thousand {hundreds} hundred {tens} dollars");
+                Console.WriteLine($"{thousands} thousand {hundreds} hundred {tens} dollars");
                 Console.WriteLine();
 
             }
