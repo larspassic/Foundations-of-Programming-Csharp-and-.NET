@@ -33,9 +33,10 @@ namespace WrittenNumbers
 
                 //Calculate cents
                 double cents = userInputNumber * (double)100;
-                int x = (int)cents % 100;
-
-                Console.WriteLine(x);
+                
+                //
+                //int x = (int)cents % 100;
+                //Console.WriteLine(x);
 
                 //Caclulate tens
                 double tens = userInputNumber % 100;
