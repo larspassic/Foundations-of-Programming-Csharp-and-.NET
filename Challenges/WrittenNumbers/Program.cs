@@ -30,6 +30,9 @@ namespace WrittenNumbers
                 //Parse input as double
                 double userInputNumber = double.Parse(userInput);
 
+
+                //Calculate cents
+                double cents = userInputNumber % 1;
                 //Caclulate tens
                 double tens = userInputNumber % 100;
                 //Calculate hundreds
@@ -52,7 +55,7 @@ namespace WrittenNumbers
 
 
                 //Write output to the user
-                Console.WriteLine($"{thousands} thousand {hundreds} hundred {tens} dollars");
+                Console.WriteLine($"{thousands} thousand {hundreds} hundred {tens} dollars and {cents} cents.");
                 Console.WriteLine();
 
             }
