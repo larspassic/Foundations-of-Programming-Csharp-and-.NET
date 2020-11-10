@@ -69,8 +69,9 @@ namespace VariableVsObject
 
             //12. What if we want to grab and store a string from an object that contains a string and convert it into something numeric say into a double?
             object objstr = "23.5";
-            
+
             double myDouble = double.Parse(objstr.ToString());
+            double myDouble = double.Parse((string)objstr);
             
  
           
