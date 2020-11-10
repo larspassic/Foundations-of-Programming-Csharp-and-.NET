@@ -8,11 +8,12 @@ namespace Scratch
 {
     class Television
     {
-
+        //Fields : private
         private int channel = 0;
         private int volume = 0;
         private bool isOn = false;
 
+        //Methods and functions : public and accessible
         public bool IsOn()
         {
             return isOn;
@@ -68,14 +69,16 @@ namespace Scratch
         }
     }
 
-    class Program
+    class Program //The user or client wants to access class television
     {
         static void Main()
         {
-            // var is used as a shorthand for Television (or whatever type is on the right-hand side)
+            //Instantiate first:  var is used as a shorthand for Television 
+            //(or whatever type is on the right-hand side)
             var tv = new Television();
 
-            if (tv.IsOn() == false)
+
+            if (tv.IsOn() == false) //If TV is not on, turn it on
             {
                 tv.TurnOn();
             }
