@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\Classes\bin\Debug\Classes.exe.config
+C:\Source\foundations\Labs\Classes\bin\Debug\Classes.exe
+C:\Source\foundations\Labs\Classes\bin\Debug\Classes.pdb
+C:\Source\foundations\Labs\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\Classes\obj\Debug\Classes.exe
+C:\Source\foundations\Labs\Classes\obj\Debug\Classes.pdb
