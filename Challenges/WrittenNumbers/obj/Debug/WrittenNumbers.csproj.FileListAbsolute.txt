@@ -1,0 +1,7 @@
+C:\Source\foundations\Challenges\WrittenNumbers\bin\Debug\WrittenNumbers.exe.config
+C:\Source\foundations\Challenges\WrittenNumbers\bin\Debug\WrittenNumbers.exe
+C:\Source\foundations\Challenges\WrittenNumbers\bin\Debug\WrittenNumbers.pdb
+C:\Source\foundations\Challenges\WrittenNumbers\obj\Debug\WrittenNumbers.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\WrittenNumbers\obj\Debug\WrittenNumbers.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\WrittenNumbers\obj\Debug\WrittenNumbers.exe
+C:\Source\foundations\Challenges\WrittenNumbers\obj\Debug\WrittenNumbers.pdb
