@@ -29,14 +29,18 @@ namespace WrittenNumbers
                 string userInput = Console.ReadLine();
 
                 //Parse input as double
-                double userInputNumber = double.Parse(userInput);
+                float userInputNumber = float.Parse(userInput);
 
                 //Gutting the old logic because it wasn't working and wasn't good in the 10,000 numbers
+                var userInputNumberType = userInputNumber.GetType();
+
+                Console.WriteLine($"{userInputNumberType}");
 
                 //Mod 1 returns cents
                 //double cents = userInputNumber % 1;
-                int cents = (int)(userInputNumber * 100) % 100;
-                int cleanCents = (int)(cents * 100);
+                int cents = (int)(userInputNumber * 100);
+
+                int cleanCents = (int)(cents / 100);
 
                 //Mod 100 returns the remainder of (userInputNumber / 100) which is tens and cents
                 double leftoverTens = userInputNumber % 100;
