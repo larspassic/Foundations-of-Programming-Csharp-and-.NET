@@ -28,18 +28,6 @@ namespace WrittenNumbers
                 //Collect input as a string
                 string userInput = Console.ReadLine();
 
-                /**This is the start of how RJ did the cents portion **/
-
-
-                //Multiple the user input by 100. This will bring whatever is in the "Cents" portion of the value
-                //to the left of the decimal. IE 1234.12 would result in 123412.00
-                float userInputAsFloat = float.Parse(userInput) * 100;
-                //Since we moved the decimal values to the left we simply need to mod by 100 to get what was in the "cents" portion.
-                // IE 123412 % 100 = 12. We cast to integer because we don't need anything after
-                int actualCents = (int)userInputAsFloat % 100;
-                Console.WriteLine(actualCents);
-
-
                 //Parse input as double
                 double userInputNumber = double.Parse(userInput);
 
