@@ -7,6 +7,8 @@ class Program
         // This called boxing
         object box = 15;
         Console.WriteLine("The value inside the box is {0}", box);
+        //string boxType = box.GetType();
+        //Console.WriteLine($"Box is {boxType}");
 
         // Convert the object box to a string
         Console.WriteLine("The ToString of the box is {0}", box.ToString());
