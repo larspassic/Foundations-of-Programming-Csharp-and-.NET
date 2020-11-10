@@ -31,31 +31,10 @@ namespace WrittenNumbers
                 //Parse input as double
                 double userInputNumber = double.Parse(userInput);
 
-                //Calculate cents
-                double cents = userInputNumber * 100;
-                cents = cents % 100;
+                //Gutting the old logic because it wasn't working and wasn't good past 10,000
 
-                //Simplify userInputNumber by removing cents
-                userInputNumber = userInputNumber - (cents / 100);
 
-                //Caclulate tens
-                double tens = userInputNumber % 100;
 
-                //Calculate hundreds
-                double hundreds = userInputNumber % 1000;
-
-                //Calculate thousands
-                double thousands = userInputNumber % 10000;
-
-                //Simplify thousands by removing hundreds
-                thousands = thousands - hundreds;
-                //Reduce thousands
-                thousands = thousands / 1000;
-
-                //Simplify hundreds by removing tens
-                hundreds = hundreds - tens;
-                //Reduce hundreds
-                hundreds = hundreds / 100;
 
 
                 //Write output to the user
