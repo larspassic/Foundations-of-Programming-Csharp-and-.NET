@@ -1,22 +1,22 @@
-﻿using System;
+﻿// File: VerySimple.cs
+using System;
 
-class Program
+class VerySimple
+{
+    int simpleValue;
+
+    public VerySimple()
+    {
+        simpleValue = 10;
+    }
+}
+
+class TestVerySimpleClass
 {
     static void Main()
     {
-        // This called boxing
-        object box = 15;
-        Console.WriteLine("The value inside the box is {0}", box);
-        //string boxType = box.GetType();
-        //Console.WriteLine($"Box is {boxType}");
+        VerySimple ver; // notice that ver is null
 
-        // Convert the object box to a string
-        Console.WriteLine("The ToString of the box is {0}", box.ToString());
-
-        // This is called unboxing - converting an object to an integer
-        int number = (int)box;
-        Console.WriteLine("Number is {0}", number);
-
-        Console.ReadLine();
+        ver = new VerySimple();
     }
 }
