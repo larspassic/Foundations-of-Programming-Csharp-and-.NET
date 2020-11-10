@@ -31,8 +31,28 @@ namespace WrittenNumbers
                 //Parse input as double
                 double userInputNumber = double.Parse(userInput);
 
-                //Gutting the old logic because it wasn't working and wasn't good past 10,000
+                //Gutting the old logic because it wasn't working and wasn't good in the 10,000 numbers
 
+                //Mod 1 returns cents
+                //double cents = userInputNumber % 1;
+                int cents = (int)(userInputNumber * 100) % 100;
+                int cleanCents = (int)(cents * 100);
+
+                //Mod 100 returns the remainder of (userInputNumber / 100) which is tens and cents
+                double leftoverTens = userInputNumber % 100;
+                //So remove the cents which will make a straightforward tens number
+                double tens = leftoverTens - cents;
+
+                //Mod 1000 returns the remainder of (userInputNumber / 1000) which is hundreds, tens, and cents
+                double leftoverHundreds = userInputNumber % 1000;
+                //So remove the tens and the cents and you have a clean hundreds number
+                double hundreds = leftoverHundreds - tens - cents;
+                hundreds = hundreds / 100;
+
+                //We already have the remainder of of hundreds, tens and cents, so remove that will leave us with thousands and above
+                double thousands = userInputNumber - leftoverHundreds;
+                //Divide by 1000 to get number of thousands
+                thousands = thousands / 1000;
 
 
 
@@ -66,7 +86,7 @@ namespace WrittenNumbers
                     finalString = finalString + ($"and ");
                 }
                 //Always write cents even if zero, just like on a check
-                finalString = finalString + ($"{cents} cents.");
+                finalString = finalString + ($"{cleanCents} cents.");
                 Console.WriteLine(finalString);
                 Console.WriteLine();
 
