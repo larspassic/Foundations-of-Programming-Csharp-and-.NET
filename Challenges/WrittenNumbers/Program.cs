@@ -33,13 +33,13 @@ namespace WrittenNumbers
 
                 //Multiple the user input by 100. This will bring whatever is in the "Cents" portion of the value
                 //to the left of the decimal. IE 1234.12 would result in 123412.00
-                float userInputAsFloat = float.Parse(userInput) * 100;
+                float userInputAsFloat = float.Parse(userInput); //* 100;
                 //Since we moved the decimal values to the left we simply need to mod by 100 to get what was in the "cents" portion.
                 // IE 123412 % 100 = 12. We cast to integer because we don't need anything after
                 int actualCents = (int)userInputAsFloat % 100;
                 Console.WriteLine(actualCents);
 
-
+                int result = (int)userInputAsFloat;
 
                 //Parse input as double
                 double userInputNumber = double.Parse(userInput);
@@ -49,7 +49,7 @@ namespace WrittenNumbers
                 //cents = cents % 100;
 
                 //Make a new version of cents to have a decimal point
-                decimal dotCents = (decimal)actualCents / 100;
+                double dotCents = (double)actualCents / 100;
 
                 //Simplify userInputNumber by removing cents
                 userInputNumber = userInputNumber - dotCents;
