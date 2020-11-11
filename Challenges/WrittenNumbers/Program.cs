@@ -32,9 +32,7 @@ namespace WrittenNumbers
                 float userInputNumber = float.Parse(userInput);
 
                 //Gutting the old logic because it wasn't working and wasn't good in the 10,000 numbers
-                var userInputNumberType = userInputNumber.GetType();
 
-                Console.WriteLine($"{userInputNumberType}");
 
                 //Mod 1 returns cents
                 //double cents = userInputNumber % 1;
