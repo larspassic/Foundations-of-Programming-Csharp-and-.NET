@@ -49,7 +49,7 @@ namespace WrittenNumbers
                 //cents = cents % 100;
 
                 //Make a new version of cents to have a decimal point
-                double dotCents = userInputNumber / 100;
+                decimal dotCents = (decimal)actualCents / 100;
 
                 //Simplify userInputNumber by removing cents
                 userInputNumber = userInputNumber - dotCents;
