@@ -40,15 +40,19 @@ namespace WrittenNumbers
                 Console.WriteLine(actualCents);
 
 
+
                 //Parse input as double
                 double userInputNumber = double.Parse(userInput);
 
-                //Calculate cents
-                double cents = userInputNumber * 100;
-                cents = cents % 100;
+                //Calculate cents (Lars version)
+                //double cents = userInputNumber * 100;
+                //cents = cents % 100;
+
+                //Make a new version of cents to have a decimal point
+                double dotCents = userInputNumber / 100;
 
                 //Simplify userInputNumber by removing cents
-                userInputNumber = userInputNumber - (cents / 100);
+                userInputNumber = userInputNumber - dotCents;
 
                 //Caclulate tens
                 double tens = userInputNumber % 100;
@@ -99,7 +103,7 @@ namespace WrittenNumbers
                     finalString = finalString + ($"and ");
                 }
                 //Always write cents even if zero, just like on a check
-                finalString = finalString + ($"{cents} cents.");
+                finalString = finalString + ($"{actualCents} cents.");
                 Console.WriteLine(finalString);
                 Console.WriteLine();
 
