@@ -36,7 +36,7 @@ namespace WrittenNumbers
 
                 //Mod 1 returns cents
                 //double cents = userInputNumber % 1;
-                int cents = (int)(userInputNumber * 100);
+                int cents = (int)userInputNumber * 100;
 
                 int cleanCents = (int)(cents / 100);
 
