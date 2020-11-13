@@ -59,7 +59,7 @@ namespace WrittenNumbers
                 {
                     cents = cents * 100;
                 }
-                string centsString = cents.ToString("#");
+                string centsString = cents.ToString("0");
                 string tensString = tens.ToString("#");
                 string hundredsString = hundreds.ToString("#");
                 string thousandsString = thousands.ToString("#");
