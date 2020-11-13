@@ -22,7 +22,7 @@ namespace WrittenNumbers
         {
             while (true)
             {
-                //Give instructions to users                
+                //Give instructions to users
                 Console.WriteLine("Enter a number, and it will be written out using words (like when writing a check):");
 
                 //Collect input as a string
@@ -33,9 +33,8 @@ namespace WrittenNumbers
 
                 //Mod 1 returns cents
                 //double cents = userInputNumber % 1;
-                int cents = (int)userInputNumber * 100;
+                decimal cents = userInputNumber % 1;
 
-                int cleanCents = (int)(cents / 100);
 
                 //Mod 100 returns the remainder of (userInputNumber / 100) which is tens and cents
                 decimal leftoverTens = userInputNumber % 100;
@@ -83,13 +82,9 @@ namespace WrittenNumbers
                     finalString = finalString + ($"and ");
                 }
                 //Always write cents even if zero, just like on a check
-                finalString = finalString + ($"{cleanCents} cents.");
+                finalString = finalString + ($"{cents} cents.");
                 Console.WriteLine(finalString);
                 Console.WriteLine();
-
-                int finalInt = int.Parse(thousands);
-
-                Console.WriteLine($"Yay {thousands}")
             }
         }
 
