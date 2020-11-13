@@ -53,36 +53,46 @@ namespace WrittenNumbers
                 thousands = thousands / 1000;
 
 
-                //Write output to the user
+                //Format output to present to user
                 string finalString = "";
+                if (cents > 0) 
+                {
+                    cents = cents * 100;
+                }
+                string centsString = cents.ToString("#");
+                string tensString = tens.ToString("#");
+                string hundredsString = hundreds.ToString("#");
+                string thousandsString = thousands.ToString("#");
+
+                //Begin building string to present to the user
 
                 //Don't write thousands if there aren't any
                 if (thousands > 0)
                 {
-                    finalString = $"{thousands} thousand ";
+                    finalString = $"{thousandsString} thousand ";
                 }
                 //Don't write hundreds if there aren't any
                 if (hundreds > 0)
                 {
-                    finalString = finalString + ($"{hundreds} hundred ");
+                    finalString = finalString + ($"{hundredsString} hundred ");
                 }
                 //Don't write tens if there aren't any
                 if (tens > 0)
                 {
-                    finalString = finalString + ($"{tens} ");
+                    finalString = finalString + ($"{tensString} ");
                 }
                 //Only write the word dollars if any of the three dollar results are at least greater than zero
                 if (thousands > 0 || hundreds > 0 || tens > 0)
                 {
                     finalString = finalString + "dollars ";
                 }
-                //If there has been nothing thus far, no need to write and
+                //If there has been nothing thus far, no need to write 'and'
                 if (finalString != "")
                 {
                     finalString = finalString + ($"and ");
                 }
                 //Always write cents even if zero, just like on a check
-                finalString = finalString + ($"{cents} cents.");
+                finalString = finalString + ($"{centsString} cents.");
                 Console.WriteLine(finalString);
                 Console.WriteLine();
             }
