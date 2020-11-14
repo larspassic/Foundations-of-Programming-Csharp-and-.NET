@@ -29,6 +29,7 @@ namespace HomeworkLoops
                 Int64 factorialResult = factorialIterator;
 
                 //Write a loop to calculate the factorial
+                /* Commented out to work on the for loop
                 while (factorialIterator > 0)
                 {
                     //Decrement the iterator early, so it can be used in the factorial calculation
@@ -38,6 +39,18 @@ namespace HomeworkLoops
                     if (factorialIterator > 0)
                     {
                         //Perform the actual factorial calculation
+                        factorialResult = factorialResult * factorialIterator;
+                    }
+
+                }
+                */
+
+                //Changing from a while loop to a for loop
+                for (Int64 loopIterator = factorialIterator; loopIterator > 0; loopIterator--)
+                {
+                    //Check for "divide by zero" event
+                    if (loopIterator > 0)
+                    {
                         factorialResult = factorialResult * factorialIterator;
                     }
 
