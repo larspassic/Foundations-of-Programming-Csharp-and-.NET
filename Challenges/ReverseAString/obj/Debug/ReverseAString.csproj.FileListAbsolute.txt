@@ -1,0 +1,7 @@
+C:\Source\foundations\Challenges\ReverseAString\bin\Debug\ReverseAString.exe.config
+C:\Source\foundations\Challenges\ReverseAString\bin\Debug\ReverseAString.exe
+C:\Source\foundations\Challenges\ReverseAString\bin\Debug\ReverseAString.pdb
+C:\Source\foundations\Challenges\ReverseAString\obj\Debug\ReverseAString.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\ReverseAString\obj\Debug\ReverseAString.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\ReverseAString\obj\Debug\ReverseAString.exe
+C:\Source\foundations\Challenges\ReverseAString\obj\Debug\ReverseAString.pdb
