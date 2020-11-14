@@ -1,0 +1,7 @@
+C:\Source\foundations\Homework\Homework4-Loops\bin\Debug\HomeworkLoops.exe.config
+C:\Source\foundations\Homework\Homework4-Loops\bin\Debug\HomeworkLoops.exe
+C:\Source\foundations\Homework\Homework4-Loops\bin\Debug\HomeworkLoops.pdb
+C:\Source\foundations\Homework\Homework4-Loops\obj\Debug\Homework4-Loops.csprojAssemblyReference.cache
+C:\Source\foundations\Homework\Homework4-Loops\obj\Debug\Homework4-Loops.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Homework\Homework4-Loops\obj\Debug\HomeworkLoops.exe
+C:\Source\foundations\Homework\Homework4-Loops\obj\Debug\HomeworkLoops.pdb
