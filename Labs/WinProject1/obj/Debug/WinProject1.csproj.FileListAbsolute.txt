@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\WinProject1\bin\Debug\WinProject1.exe.config
+C:\Source\foundations\Labs\WinProject1\bin\Debug\WinProject1.exe
+C:\Source\foundations\Labs\WinProject1\bin\Debug\WinProject1.pdb
+C:\Source\foundations\Labs\WinProject1\obj\Debug\WinProject1.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\WinProject1\obj\Debug\WinProject1.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\WinProject1\obj\Debug\WinProject1.exe
+C:\Source\foundations\Labs\WinProject1\obj\Debug\WinProject1.pdb
