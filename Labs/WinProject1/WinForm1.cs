@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 class MyForm : Form
 {
@@ -11,6 +12,8 @@ class MyForm : Form
     {
         //Change the caption of the application.
         Text = "Hello World";
+        BackColor = System.Drawing.Color.Red;
+
     }
 
     static void Main()
