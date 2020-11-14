@@ -14,7 +14,7 @@ namespace ReverseAString
             {
 
                 //Provide instructions to the user
-                Console.Write("Please enter a word or number, and the program will reverse it!");
+                Console.Write("Please enter a word or number, and the program will reverse it! ");
 
                 //Receive input from the user as a string
                 string userInput = Console.ReadLine();
