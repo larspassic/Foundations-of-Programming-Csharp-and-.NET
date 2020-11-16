@@ -13,13 +13,6 @@ class VerySimple //This is a class
         //initializers : superintendents of the class
         simpleValue = 10; //This is the starting point of the value, determined here in the constructor
 
-        int variableNew = 1;
-        int x = 0;
-        int y = 0;
-        if (x == y)
-        {
-
-        }
     }
 }
 

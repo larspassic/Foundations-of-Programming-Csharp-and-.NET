@@ -12,3 +12,7 @@ C:\Source\foundations\Scratch\obj\Debug\Scratch.csprojAssemblyReference.cache
 C:\Source\foundations\Scratch\obj\Debug\Scratch.csproj.CoreCompileInputs.cache
 C:\Source\foundations\Scratch\obj\Debug\Scratch.exe
 C:\Source\foundations\Scratch\obj\Debug\Scratch.pdb
+C:\Users\larsp\Documents\GitHub\foundations\Scratch\obj\Debug\Scratch.csprojAssemblyReference.cache
+C:\Users\larsp\Documents\GitHub\foundations\Scratch\obj\Debug\Scratch.csproj.CoreCompileInputs.cache
+C:\Users\larsp\Documents\GitHub\foundations\Scratch\obj\Debug\Scratch.exe
+C:\Users\larsp\Documents\GitHub\foundations\Scratch\obj\Debug\Scratch.pdb
