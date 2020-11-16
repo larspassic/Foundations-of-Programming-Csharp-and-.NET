@@ -1,0 +1,6 @@
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Television\Television\bin\Debug\Television.exe.config
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Television\Television\bin\Debug\Television.exe
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Television\Television\bin\Debug\Television.pdb
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Television\Television\obj\Debug\Television.csproj.CoreCompileInputs.cache
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Television\Television\obj\Debug\Television.exe
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Television\Television\obj\Debug\Television.pdb

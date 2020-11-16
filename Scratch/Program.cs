@@ -35,5 +35,6 @@ class TestVerySimpleClass //The class user has to follow the access rules
         //VerySimple() is the call for the constructor (if any)
 
         var x = ver.simpleValue; //This value was recently made available by adding public to simpleValue above
+        
     }
 }
