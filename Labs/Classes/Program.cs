@@ -4,10 +4,12 @@
 
 class Contact
 {
+    //Create the fields in the class
     public string FirstName;
     public string LastName;
     public int Age;
 
+    //Method GetFullName
     public String GetFullName()
     {
         return ($"{FirstName} {LastName}");
