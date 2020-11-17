@@ -61,7 +61,7 @@ class Program
                         for (var index = indexToDelete - 1; index < numberOfPets; index++)
                         {
                             // TODO: Just copy the pet from the next index into the current index
-                            pets[indexToDelete] = pets[indexToDelete + 1];
+                            pets[index] = pets[index + 1];
                         }
 
                         // We have one less pet
