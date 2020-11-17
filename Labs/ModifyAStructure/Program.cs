@@ -29,7 +29,9 @@ class Program
                         Console.Write("Type of pet :");
                         var typeOfPet = Console.ReadLine();
 
-                        // TODO: Always add the pet at the end of the array
+                        pets[numberOfPets].Name = name;
+                        pets[numberOfPets].TypeOfPet = typeOfPet;
+
 
                         numberOfPets++;
                         break;
@@ -59,6 +61,7 @@ class Program
                         for (var index = indexToDelete - 1; index < numberOfPets; index++)
                         {
                             // TODO: Just copy the pet from the next index into the current index
+                            pets[indexToDelete] = pets[indexToDelete + 1];
                         }
 
                         // We have one less pet

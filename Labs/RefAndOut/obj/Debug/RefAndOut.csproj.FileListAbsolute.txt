@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\RefAndOut\bin\Debug\RefAndOut.exe.config
+C:\Source\foundations\Labs\RefAndOut\bin\Debug\RefAndOut.exe
+C:\Source\foundations\Labs\RefAndOut\bin\Debug\RefAndOut.pdb
+C:\Source\foundations\Labs\RefAndOut\obj\Debug\RefAndOut.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\RefAndOut\obj\Debug\RefAndOut.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\RefAndOut\obj\Debug\RefAndOut.exe
+C:\Source\foundations\Labs\RefAndOut\obj\Debug\RefAndOut.pdb
