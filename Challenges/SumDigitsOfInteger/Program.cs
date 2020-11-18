@@ -21,7 +21,18 @@ namespace SumDigitsOfInteger
                 //Parse the string in to an int
                 int intUserInput = int.Parse(strUserInput);
 
-                //
+                int sumTotal = 0;
+
+                //Loop through the elements in the user input
+                foreach (int element in intUserInput)
+                {
+                    Console.WriteLine($"Processing {element}");
+                    sumTotal = sumTotal + element;
+                }
+
+                //Display result to user
+                Console.WriteLine($"The sum of all of the digits in your input ({strUserInput}) is {sumTotal}");
+                Console.WriteLine();
             }
         }
     }
