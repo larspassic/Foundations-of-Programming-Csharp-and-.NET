@@ -21,10 +21,22 @@ namespace SumDigitsOfInteger
                 //Parse the string in to an int
                 int intUserInput = int.Parse(strUserInput);
 
+                //Create the variable to hold the output sum
                 int sumTotal = 0;
 
+                //Create array of ints
+                int[] intArray = new int[strUserInput.Length];
+
+                //Loop to populate the int array
+                for (int loopCount = 0; loopCount < strUserInput.Length; loopCount++)
+                {
+                    //string tempString = (int)strUserInput[loopCount];
+                    int tempVar = (int)char.GetNumericValue(strUserInput[loopCount]);
+                    intArray[loopCount] = tempVar;
+                }
+
                 //Loop through the elements in the user input
-                foreach (int element in intUserInput)
+                foreach (int element in intArray)
                 {
                     Console.WriteLine($"Processing {element}");
                     sumTotal = sumTotal + element;
