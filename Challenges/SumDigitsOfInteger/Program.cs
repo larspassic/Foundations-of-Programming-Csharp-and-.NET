@@ -18,9 +18,6 @@ namespace SumDigitsOfInteger
                 //Take the input from the user as a string
                 string strUserInput = Console.ReadLine();
 
-                //Parse the string in to an int
-                int intUserInput = int.Parse(strUserInput);
-
                 //Create the variable to hold the output sum
                 int sumTotal = 0;
 
