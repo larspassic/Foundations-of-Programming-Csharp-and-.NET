@@ -41,8 +41,10 @@ class Program
                 case "C":
                 case "c":
                     {
-                        //Add logic for changing items here.
-
+                        //
+                        //This section will allow the user to change the name and type of the pet.
+                        //
+                        
                         //First use the same code from the "List" section so that the user can see what pets are available to change
                         if (numberOfPets == 0)
                         {
@@ -58,36 +60,19 @@ class Program
 
                         //Ask the user which pet they want to change
                         Console.Write("Which pet to change (1-{0})", numberOfPets);
-
                         var petNumberToChange = Console.ReadLine();
                         var indexToChange = int.Parse(petNumberToChange);
 
-                        //Ask the user what they want to change
-                        Console.Write("Change N)ame or change T)ype:");
-                        var nameOrTypeChoice = Console.ReadLine();
+                        Console.Write("Name :");
+                        var name = Console.ReadLine();
 
-                        switch (nameOrTypeChoice)
-                        {
-                            case "N":
-                            case "n":
-                                {
-                                    
-                                    break;
-                                }
-                            case "T":
-                            case "t":
-                                {
-                                    
-                                    break;
-                                }
+                        Console.Write("Type of pet :");
+                        var typeOfPet = Console.ReadLine();
 
-
-                            default:
-                                {
-                                    Console.WriteLine($"Invalid choice {nameOrTypeChoice}");
-                                    break;
-                                }
-                        }
+                        //Modify the pet
+                        pets[indexToChange].Name = name;
+                        pets[indexToChange].TypeOfPet = typeOfPet;
+                        
 
                         break;
                     }
