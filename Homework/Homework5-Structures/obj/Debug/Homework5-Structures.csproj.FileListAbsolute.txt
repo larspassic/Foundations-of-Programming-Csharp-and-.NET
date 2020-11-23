@@ -1,0 +1,7 @@
+C:\Source\foundations\Homework\Homework5-Structures\bin\Debug\Homework5-Structures.exe.config
+C:\Source\foundations\Homework\Homework5-Structures\bin\Debug\Homework5-Structures.exe
+C:\Source\foundations\Homework\Homework5-Structures\bin\Debug\Homework5-Structures.pdb
+C:\Source\foundations\Homework\Homework5-Structures\obj\Debug\Homework5-Structures.csprojAssemblyReference.cache
+C:\Source\foundations\Homework\Homework5-Structures\obj\Debug\Homework5-Structures.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Homework\Homework5-Structures\obj\Debug\Homework5-Structures.exe
+C:\Source\foundations\Homework\Homework5-Structures\obj\Debug\Homework5-Structures.pdb

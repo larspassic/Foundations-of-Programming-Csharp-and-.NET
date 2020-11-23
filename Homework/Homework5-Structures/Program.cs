@@ -15,6 +15,8 @@ class Program
 
         while (true)
         {
+            //Give instructions to the user
+            //Will need to change to add the "change" functionality
             Console.Write("A)dd D)elete L)ist pets:");
             var choice = Console.ReadLine();
 
