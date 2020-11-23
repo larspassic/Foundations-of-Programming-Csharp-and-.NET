@@ -62,6 +62,7 @@ class Program
                         Console.Write("Which pet to change (1-{0})", numberOfPets);
                         var petNumberToChange = Console.ReadLine();
                         var indexToChange = int.Parse(petNumberToChange);
+                        indexToChange--;
 
                         Console.Write("Name :");
                         var name = Console.ReadLine();
