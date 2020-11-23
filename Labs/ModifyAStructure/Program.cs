@@ -36,6 +36,13 @@ class Program
                         numberOfPets++;
                         break;
                     }
+                case "C":
+                case "c":
+                    {
+                        //Add logic for changing items here.
+
+                        break;
+                    }
 
                 case "D":
                 case "d":
