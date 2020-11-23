@@ -65,10 +65,10 @@ class Program
                         indexToChange--;
 
                         //Prompt the user for new values
-                        Console.Write("Name :");
+                        Console.Write("Enter a new name (or press enter to keep the previous value):");
                         var name = Console.ReadLine();
 
-                        Console.Write("Type of pet :");
+                        Console.Write("Enter a new type of pet (or press enter to keep the previous value):");
                         var typeOfPet = Console.ReadLine();
 
                         //Modify the pet with the values that the user supplied
