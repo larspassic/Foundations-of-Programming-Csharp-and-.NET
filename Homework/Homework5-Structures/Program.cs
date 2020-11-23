@@ -64,15 +64,24 @@ class Program
                         var indexToChange = int.Parse(petNumberToChange);
                         indexToChange--;
 
+                        //Prompt the user for new values
                         Console.Write("Name :");
                         var name = Console.ReadLine();
 
                         Console.Write("Type of pet :");
                         var typeOfPet = Console.ReadLine();
 
-                        //Modify the pet
-                        pets[indexToChange].Name = name;
-                        pets[indexToChange].TypeOfPet = typeOfPet;
+                        //Modify the pet with the values that the user supplied
+
+                        if (name != "") //Only change the value if the user actually puts something in. Just pressing enter results in leaving the old value 
+                        {
+                            pets[indexToChange].Name = name;
+                        }
+                        
+                        if (typeOfPet != "") //Only change the value if the user actually puts something in. Just pressing enter results in leaving the old value 
+                        {
+                            pets[indexToChange].TypeOfPet = typeOfPet;
+                        }
                         
 
                         break;
