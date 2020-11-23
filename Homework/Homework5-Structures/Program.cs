@@ -17,7 +17,7 @@ class Program
         {
             //Give instructions to the user
             //Will need to change to add the "change" functionality
-            Console.Write("A)dd D)elete L)ist pets:");
+            Console.Write("A)dd C)hange D)elete L)ist pets:");
             var choice = Console.ReadLine();
 
             switch (choice)
@@ -43,23 +43,72 @@ class Program
                     {
                         //Add logic for changing items here.
 
+                        //First use the same code from the "List" section so that the user can see what pets are available to change
+                        if (numberOfPets == 0)
+                        {
+                            Console.WriteLine("No pets");
+                        }
+
+                        for (int index = 0; index < numberOfPets; index++)
+                        {
+                            Console.WriteLine("{0}. {1,-10} {2}", index + 1, pets[index].Name, pets[index].TypeOfPet);
+                        }
+
+                        //Now to change the pet
+
+                        //Ask the user which pet they want to change
+                        Console.Write("Which pet to change (1-{0})", numberOfPets);
+
+                        var petNumberToChange = Console.ReadLine();
+                        var indexToChange = int.Parse(petNumberToChange);
+
+                        //Ask the user what they want to change
+                        Console.Write("Change N)ame or change T)ype:");
+                        var nameOrTypeChoice = Console.ReadLine();
+
+                        switch (nameOrTypeChoice)
+                        {
+                            case "N":
+                            case "n":
+                                {
+                                    
+                                    break;
+                                }
+                            case "T":
+                            case "t":
+                                {
+                                    
+                                    break;
+                                }
+
+
+                            default:
+                                {
+                                    Console.WriteLine($"Invalid choice {nameOrTypeChoice}");
+                                    break;
+                                }
+                        }
+
                         break;
                     }
 
                 case "D":
                 case "d":
                     {
+                        //Check if there are no pets
                         if (numberOfPets == 0)
                         {
                             Console.WriteLine("No pets");
                             break;
                         }
 
+                        //Display current pets
                         for (var index = 0; index < numberOfPets; index++)
                         {
                             Console.WriteLine("{0}. {1,-10} {2}", index + 1, pets[index].Name, pets[index].TypeOfPet);
                         }
 
+                        //Ask the user which pet they want to remove
                         Console.Write("Which pet to remove (1-{0})", numberOfPets);
 
                         var petNumberToDelete = Console.ReadLine();
