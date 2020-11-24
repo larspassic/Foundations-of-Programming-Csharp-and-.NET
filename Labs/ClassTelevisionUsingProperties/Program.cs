@@ -15,10 +15,11 @@ class Television
         }
         set
         {
-            isOn = value;
+            isOn = value; //Don't we already set the value right here?
             if (isOn)
             {
                 // do code here
+                // do nothing?
             }
             else
             {
@@ -38,6 +39,7 @@ class Television
             if (value >= 0 && value <= 100)
             {
                 // do the code to change the volume
+                volume += value;
             }
         }
     }
@@ -47,6 +49,7 @@ class Television
         get
         {
             // do the code to return the channel
+            return channel;
         }
         set
         {
@@ -54,6 +57,7 @@ class Television
             {
                 // do the code to change the
                 // channel on the tv
+                channel = value;
             }
         }
     }
