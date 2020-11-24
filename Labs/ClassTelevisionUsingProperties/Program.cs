@@ -19,11 +19,12 @@ class Television
             if (isOn)
             {
                 // do code here
-                // do nothing?
+                // do nothing, isOn is already equal to true
             }
             else
             {
                 // do the code to turn the tv OFF
+                //
             }
         }
     }
@@ -39,7 +40,7 @@ class Television
             if (value >= 0 && value <= 100)
             {
                 // do the code to change the volume
-                volume += value;
+                volume = value;
             }
         }
     }
