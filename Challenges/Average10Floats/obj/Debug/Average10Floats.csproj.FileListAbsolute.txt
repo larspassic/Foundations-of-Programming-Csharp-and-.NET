@@ -1,0 +1,7 @@
+C:\Source\foundations\Challenges\Average10Floats\bin\Debug\Average10Floats.exe.config
+C:\Source\foundations\Challenges\Average10Floats\bin\Debug\Average10Floats.exe
+C:\Source\foundations\Challenges\Average10Floats\bin\Debug\Average10Floats.pdb
+C:\Source\foundations\Challenges\Average10Floats\obj\Debug\Average10Floats.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\Average10Floats\obj\Debug\Average10Floats.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\Average10Floats\obj\Debug\Average10Floats.exe
+C:\Source\foundations\Challenges\Average10Floats\obj\Debug\Average10Floats.pdb
