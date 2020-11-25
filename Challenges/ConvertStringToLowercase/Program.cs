@@ -18,9 +18,15 @@ namespace ConvertStringToLowercase
                 //Collect input as a string
                 string strUserInput = Console.ReadLine();
 
-                //Loop to put the string into a char array
+                //Loop to put the chars into an char array
+                int[] intArray = new int[strUserInput.Length];
 
-                //Find out the unicode
+                //Hopefully converting to an int will result in unicode value
+                for (int i=0; i < strUserInput.Length; i++)
+                {
+                    intArray[i] = strUserInput[i];
+                }
+
 
                 //Loop to subtract 20 from the unicode number, which will result in the lowercase version of the unicode character, and populate a new char array
 

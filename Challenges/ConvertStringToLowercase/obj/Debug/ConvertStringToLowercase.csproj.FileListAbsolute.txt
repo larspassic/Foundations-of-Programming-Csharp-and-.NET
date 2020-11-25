@@ -1,0 +1,7 @@
+C:\Source\foundations\Challenges\ConvertStringToLowercase\bin\Debug\ConvertStringToLowercase.exe.config
+C:\Source\foundations\Challenges\ConvertStringToLowercase\bin\Debug\ConvertStringToLowercase.exe
+C:\Source\foundations\Challenges\ConvertStringToLowercase\bin\Debug\ConvertStringToLowercase.pdb
+C:\Source\foundations\Challenges\ConvertStringToLowercase\obj\Debug\ConvertStringToLowercase.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\ConvertStringToLowercase\obj\Debug\ConvertStringToLowercase.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\ConvertStringToLowercase\obj\Debug\ConvertStringToLowercase.exe
+C:\Source\foundations\Challenges\ConvertStringToLowercase\obj\Debug\ConvertStringToLowercase.pdb
