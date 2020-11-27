@@ -29,9 +29,18 @@ namespace ConvertStringToLowercase
 
 
                 //Loop to subtract 20 from the unicode number, which will result in the lowercase version of the unicode character, and populate a new char array
+                char[] charArray = new char[intArray.Length];
+                for (int i=0; i < intArray.Length; i++)
+                {
+                    charArray[i] = (char)(intArray[i]-20);
+                }
 
                 //Loop to build a final string from the new char array
                 string strFinalString = "";
+                for (int i = 0; i < charArray.Length; i++)
+                {
+                    strFinalString[i] = charArray[i];
+                }
 
                 //Output the final string to the user
                 Console.WriteLine($"Your string converted to lowercase is {strFinalString}");
