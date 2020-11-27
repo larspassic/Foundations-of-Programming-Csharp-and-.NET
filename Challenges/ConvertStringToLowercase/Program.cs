@@ -36,11 +36,16 @@ namespace ConvertStringToLowercase
                 }
 
                 //Loop to build a final string from the new char array
+                //string strFinalString = charArray.ToString(); //Cheating
                 string strFinalString = "";
+
                 for (int i = 0; i < charArray.Length; i++)
                 {
-                    strFinalString[i] = charArray[i];
+
+                    strFinalString = strFinalString + charArray[i];
+
                 }
+                
 
                 //Output the final string to the user
                 Console.WriteLine($"Your string converted to lowercase is {strFinalString}");
