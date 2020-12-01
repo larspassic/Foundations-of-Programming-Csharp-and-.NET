@@ -10,10 +10,12 @@ struct Contact
     {
         Name = name;
         PhoneNumber = phoneNumber;
-        ContactId = ???
+        ContactId = nextContactId;
+        nextContactId++;
     }
 
     // TODO: Create static nextContactId
+    public static int nextContactId = 100;
 }
 
 class Program

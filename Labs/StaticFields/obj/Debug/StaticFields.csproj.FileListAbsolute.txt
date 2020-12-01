@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\StaticFields\bin\Debug\StaticFields.exe.config
+C:\Source\foundations\Labs\StaticFields\bin\Debug\StaticFields.exe
+C:\Source\foundations\Labs\StaticFields\bin\Debug\StaticFields.pdb
+C:\Source\foundations\Labs\StaticFields\obj\Debug\StaticFields.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\StaticFields\obj\Debug\StaticFields.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\StaticFields\obj\Debug\StaticFields.exe
+C:\Source\foundations\Labs\StaticFields\obj\Debug\StaticFields.pdb
