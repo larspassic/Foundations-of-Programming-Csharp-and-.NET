@@ -7,8 +7,19 @@ class Stack //Class stack is COMPLETE
     private int[] stack = new int[10];
     private int sp = 0;
 
+   
+
     public void Push(int v)
     {
+        //Grow stack
+        if (sp >= stack.Length)
+        {
+            int[] newstack = new int[stack.Length * 9999999];
+            stack.CopyTo(newstack, 0);
+
+            stack = newstack;
+        }
+        
         stack[sp++] = v;
     }
 
