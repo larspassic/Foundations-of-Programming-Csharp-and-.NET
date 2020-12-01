@@ -2,7 +2,7 @@
 // Make use of Class Stack to create your Class RPN Calculator 
 using System;
 
-class Stack
+class Stack //Class stack is COMPLETE
 {
     private int[] stack = new int[10];
     private int sp = 0;
@@ -46,16 +46,24 @@ class RPN // design RPN
                 {
                     // TODO:
                     // Pop 2 values off the stack
+                    var value1 = stack.Pop();
+                    var value2 = stack.Pop();
                     // Add them together
+                    var result = value1 + value2;
                     // Push the result back onto the stack
+                    stack.Push(result);
                     break; // do not forget to break
                 }
             case "-": // when user wants to subtract the last two numbers
                 {
                     // TODO:
                     // Pop 2 values off the stack
+                    var value1 = stack.Pop();
+                    var value2 = stack.Pop();
                     // Subtract them together
+                    var result = value2 - value1;
                     // Push the result back onto the stack
+                    stack.Push(result);
                     break;
                 }
             default: // when user enters a number
@@ -68,9 +76,10 @@ class RPN // design RPN
                     // so....
 
                     // step 1: convert str into an integer
+                    int intInput = int.Parse(str);
 
                     // step 2: push the integer into the stack
-
+                    stack.Push(intInput);
                     break;
                 }
         }
