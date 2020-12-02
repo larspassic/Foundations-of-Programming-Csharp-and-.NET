@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\BankAccountClass\bin\Debug\BankAccountClass.exe.config
+C:\Source\foundations\Labs\BankAccountClass\bin\Debug\BankAccountClass.exe
+C:\Source\foundations\Labs\BankAccountClass\bin\Debug\BankAccountClass.pdb
+C:\Source\foundations\Labs\BankAccountClass\obj\Debug\BankAccountClass.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\BankAccountClass\obj\Debug\BankAccountClass.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\BankAccountClass\obj\Debug\BankAccountClass.exe
+C:\Source\foundations\Labs\BankAccountClass\obj\Debug\BankAccountClass.pdb

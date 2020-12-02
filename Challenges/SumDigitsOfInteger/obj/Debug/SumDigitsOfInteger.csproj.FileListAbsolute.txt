@@ -1,0 +1,7 @@
+C:\Source\foundations\Challenges\SumDigitsOfInteger\bin\Debug\SumDigitsOfInteger.exe.config
+C:\Source\foundations\Challenges\SumDigitsOfInteger\bin\Debug\SumDigitsOfInteger.exe
+C:\Source\foundations\Challenges\SumDigitsOfInteger\bin\Debug\SumDigitsOfInteger.pdb
+C:\Source\foundations\Challenges\SumDigitsOfInteger\obj\Debug\SumDigitsOfInteger.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\SumDigitsOfInteger\obj\Debug\SumDigitsOfInteger.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\SumDigitsOfInteger\obj\Debug\SumDigitsOfInteger.exe
+C:\Source\foundations\Challenges\SumDigitsOfInteger\obj\Debug\SumDigitsOfInteger.pdb

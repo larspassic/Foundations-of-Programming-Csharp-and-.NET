@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\Structures\bin\Debug\Structures.exe.config
+C:\Source\foundations\Labs\Structures\bin\Debug\Structures.exe
+C:\Source\foundations\Labs\Structures\bin\Debug\Structures.pdb
+C:\Source\foundations\Labs\Structures\obj\Debug\Structures.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\Structures\obj\Debug\Structures.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\Structures\obj\Debug\Structures.exe
+C:\Source\foundations\Labs\Structures\obj\Debug\Structures.pdb

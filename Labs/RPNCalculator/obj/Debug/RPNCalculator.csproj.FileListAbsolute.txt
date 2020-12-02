@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\RPNCalculator\bin\Debug\RPNCalculator.exe.config
+C:\Source\foundations\Labs\RPNCalculator\bin\Debug\RPNCalculator.exe
+C:\Source\foundations\Labs\RPNCalculator\bin\Debug\RPNCalculator.pdb
+C:\Source\foundations\Labs\RPNCalculator\obj\Debug\RPNCalculator.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\RPNCalculator\obj\Debug\RPNCalculator.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\RPNCalculator\obj\Debug\RPNCalculator.exe
+C:\Source\foundations\Labs\RPNCalculator\obj\Debug\RPNCalculator.pdb

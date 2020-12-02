@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\StaticProperties\bin\Debug\StaticProperties.exe.config
+C:\Source\foundations\Labs\StaticProperties\bin\Debug\StaticProperties.exe
+C:\Source\foundations\Labs\StaticProperties\bin\Debug\StaticProperties.pdb
+C:\Source\foundations\Labs\StaticProperties\obj\Debug\StaticProperties.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\StaticProperties\obj\Debug\StaticProperties.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\StaticProperties\obj\Debug\StaticProperties.exe
+C:\Source\foundations\Labs\StaticProperties\obj\Debug\StaticProperties.pdb
