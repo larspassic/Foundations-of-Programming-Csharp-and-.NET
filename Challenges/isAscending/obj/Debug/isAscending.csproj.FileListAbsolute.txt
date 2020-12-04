@@ -1,0 +1,7 @@
+C:\Source\foundations\Challenges\isAscending\bin\Debug\isAscending.exe.config
+C:\Source\foundations\Challenges\isAscending\bin\Debug\isAscending.exe
+C:\Source\foundations\Challenges\isAscending\bin\Debug\isAscending.pdb
+C:\Source\foundations\Challenges\isAscending\obj\Debug\isAscending.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\isAscending\obj\Debug\isAscending.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\isAscending\obj\Debug\isAscending.exe
+C:\Source\foundations\Challenges\isAscending\obj\Debug\isAscending.pdb
