@@ -1,0 +1,7 @@
+C:\Source\foundations\Challenges\AscendingDescendingNeither\bin\Debug\AscendingDescendingNeither.exe.config
+C:\Source\foundations\Challenges\AscendingDescendingNeither\bin\Debug\AscendingDescendingNeither.exe
+C:\Source\foundations\Challenges\AscendingDescendingNeither\bin\Debug\AscendingDescendingNeither.pdb
+C:\Source\foundations\Challenges\AscendingDescendingNeither\obj\Debug\AscendingDescendingNeither.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\AscendingDescendingNeither\obj\Debug\AscendingDescendingNeither.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\AscendingDescendingNeither\obj\Debug\AscendingDescendingNeither.exe
+C:\Source\foundations\Challenges\AscendingDescendingNeither\obj\Debug\AscendingDescendingNeither.pdb
