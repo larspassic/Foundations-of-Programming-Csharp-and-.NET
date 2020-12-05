@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        int[] numbers = new int[] { 0 };
+        int[] numbers = new int[] { 0,1,2,2,3 };
 
         // What should the default value be?
         bool isSequential = false;
@@ -21,7 +21,7 @@ class Program
             secondNumber = numbers[i + 1];
 
             //ASCENDING SECTION
-            if (secondNumber > firstNumber) //block of code for if numbers are ascending (getting larger)
+            if (secondNumber >= firstNumber) //block of code for if numbers are ascending (getting larger)
             {
                 if (strAscendingOrDescending == "" || strAscendingOrDescending == "ascending") //If it has never been set, or if the last result was ascending, numbers are still ascending
                 {
@@ -47,7 +47,7 @@ class Program
             }
             
             //DESCENDING SECTION
-            else if (firstNumber > secondNumber) //block of code for if numbers are descending (getting smaller)
+            else if (firstNumber >= secondNumber) //block of code for if numbers are descending (getting smaller)
             {
                 if (strAscendingOrDescending == "" || strAscendingOrDescending == "descending")
                 {
