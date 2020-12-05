@@ -20,9 +20,18 @@ class Program
             firstNumber = numbers[i];
             secondNumber = numbers[i + 1];
 
+            //ASCENDING SECTION
             if (secondNumber > firstNumber) //block of code for if numbers are ascending (getting larger)
             {
-                strAscendingOrDescending = "ascending"; //Declare numbers to be Ascending
+                if (strAscendingOrDescending == "" || strAscendingOrDescending == "ascending") //If it has never been set, or if the last result was ascending, numbers are still ascending
+                {
+                    strAscendingOrDescending = "ascending"; //Declare numbers to be Ascending
+                }
+                else
+                {
+                    strAscendingOrDescending = "neither ascending nor descending";
+                }
+
 
                 if ((secondNumber - firstNumber) == 1)
                 {
@@ -33,9 +42,18 @@ class Program
                     isSequential = false;
                 }
             }
+            
+            //DESCENDING SECTION
             else if (firstNumber > secondNumber) //block of code for if numbers are descending (getting smaller)
             {
-                strAscendingOrDescending = "descending"; //Declare numbers to be Descending
+                if (strAscendingOrDescending == "" || strAscendingOrDescending == "descending")
+                {
+                    strAscendingOrDescending = "descending"; //Declare numbers to be Descending
+                }
+                else
+                {
+                    strAscendingOrDescending = "neither ascending nor descending";
+                }
 
                 if ((firstNumber - secondNumber) == 1)
                 {
@@ -53,12 +71,8 @@ class Program
             }
 
 
-            if (isSequential == false)
-            {
-                break;
-            }
-
         }
+        
         //Use a loop to populate a string to demonstrate what was evaluated
         string strNumbers = "";
         for (int x = 0; x < numbers.Length; x++)
