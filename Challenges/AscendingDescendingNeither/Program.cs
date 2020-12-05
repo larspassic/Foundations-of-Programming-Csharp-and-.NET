@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        int[] numbers = new int[] { 15, 22, 71, 72, 78, 81, 82, 83, 84, 85, 86, 90, 91, 92, 95, 94 };
+        int[] numbers = new int[] { 0 };
 
         // What should the default value be?
         bool isSequential = false;
@@ -32,8 +32,11 @@ class Program
                     strAscendingOrDescending = "neither ascending nor descending";
                 }
 
-
-                if ((secondNumber - firstNumber) == 1)
+                if (i > 0 && isSequential == false) //if the loop has run once then we know it wasn't sequential before so it can't be sequential now
+                {
+                    isSequential = false;
+                }
+                else if ((secondNumber - firstNumber) == 1)
                 {
                     isSequential = true;
                 }
@@ -55,7 +58,11 @@ class Program
                     strAscendingOrDescending = "neither ascending nor descending";
                 }
 
-                if ((firstNumber - secondNumber) == 1)
+                if (i > 0 && isSequential == false) //if the loop has run once then we know it wasn't sequential before so it can't be sequential now
+                {
+                    isSequential = false;
+                }
+                else if ((firstNumber - secondNumber) == 1)
                 {
                     isSequential = true;
                 }
@@ -87,12 +94,12 @@ class Program
         string strIfNotSequential = "";
         if (isSequential == false)
         {
-            strIfNotSequential = "not";
+            strIfNotSequential = " not";
         }
 
         //Write output to the user
         Console.WriteLine($"{strNumbers}");
-        Console.WriteLine($"The array was found to be {strIfNotSequential} sequential, and in {strAscendingOrDescending} order.");
+        Console.WriteLine($"The array was found to be{strIfNotSequential} sequential, and in {strAscendingOrDescending} order.");
 
         Console.ReadLine();
     }
