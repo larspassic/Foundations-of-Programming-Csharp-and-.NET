@@ -6,6 +6,8 @@ class Test
     {
         int[] xlist = new int[] { 9,5,3,-2, 4, 5 };
 
+        Console.WriteLine($"{xlist.Length}");
+
         for (int x = 0; x <xlist.Length; x++)
         {
             if (xlist[x] == 3)
@@ -21,5 +23,6 @@ class Test
         {
             Console.Write("{0} ", v);
         }
+        Console.ReadLine();
     }
 }
