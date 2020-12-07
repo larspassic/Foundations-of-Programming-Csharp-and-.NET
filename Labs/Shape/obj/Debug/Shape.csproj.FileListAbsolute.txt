@@ -1,0 +1,7 @@
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Shape\bin\Debug\Shape.exe.config
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Shape\bin\Debug\Shape.exe
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Shape\bin\Debug\Shape.pdb
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Shape\obj\Debug\Shape.csprojAssemblyReference.cache
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Shape\obj\Debug\Shape.csproj.CoreCompileInputs.cache
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Shape\obj\Debug\Shape.exe
+C:\Users\larsp\Documents\GitHub\foundations\Labs\Shape\obj\Debug\Shape.pdb
