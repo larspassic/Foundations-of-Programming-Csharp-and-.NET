@@ -10,6 +10,7 @@ namespace Homework6_FinalProject
     {
         static void Main(string[] args)
         {
+            //Introduction instructions
 
         }
     }
