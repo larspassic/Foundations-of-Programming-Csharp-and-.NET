@@ -1,14 +1,14 @@
 ﻿using System;
 
-class Transaction
+abstract class Transaction
 {
     public double Amount;
     public string Description;
 
-    public virtual void Print()
-    {
-        Console.WriteLine("The child class should have printed.");
-    }
+    public abstract void Print(); //make it abstract
+
+    public abstract void Input(); //make it abstract
+
 }
 
 class Check : Transaction
@@ -22,6 +22,11 @@ class Check : Transaction
         Console.WriteLine("Amount      : {0}", Amount);
         Console.WriteLine("Description : {0}", Description);
     }
+
+    public override void Input()
+    {
+        throw new NotImplementedException();
+    }
 }
 
 
@@ -34,6 +39,11 @@ class Withdrawal : Transaction
         Console.WriteLine("Amount      : {0}", Amount);
         Console.WriteLine("Description : {0}", Description);
     }
+
+    public override void Input()
+    {
+        throw new NotImplementedException();
+    }
 }
 
 class Deposit : Transaction
@@ -45,6 +55,11 @@ class Deposit : Transaction
         Console.WriteLine("-Deposit-");
         Console.WriteLine("Amount      : {0}", Amount);
         Console.WriteLine("Description : {0}", Description);
+    }
+
+    public override void Input()
+    {
+        throw new NotImplementedException();
     }
 }
 
