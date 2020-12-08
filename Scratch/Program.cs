@@ -41,7 +41,7 @@ class Program //End user or client that makes use of the vehicle family
 {
     // Notice that this take a base class Vehicle object
     // and not a specific child class
-    public static void PrintInfo(Vehicle v)
+    public static void PrintInfo(Vehicle v) //You have to pass in an object of type vehicle
     {
         Console.WriteLine("Name is {0}", v.Name);
         Console.WriteLine("Passengers is {0}", v.Passengers);
@@ -56,5 +56,6 @@ class Program //End user or client that makes use of the vehicle family
         PrintInfo(myVehicle);
         PrintInfo(myHondaCivic);
         PrintInfo(myHarley);
+        Console.ReadLine();
     }
 }
