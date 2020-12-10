@@ -1,0 +1,7 @@
+C:\Source\foundations\Homework\Homework6-FinalProject\bin\Debug\Homework6-FinalProject.exe.config
+C:\Source\foundations\Homework\Homework6-FinalProject\bin\Debug\Homework6-FinalProject.exe
+C:\Source\foundations\Homework\Homework6-FinalProject\bin\Debug\Homework6-FinalProject.pdb
+C:\Source\foundations\Homework\Homework6-FinalProject\obj\Debug\Homework6-FinalProject.csprojAssemblyReference.cache
+C:\Source\foundations\Homework\Homework6-FinalProject\obj\Debug\Homework6-FinalProject.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Homework\Homework6-FinalProject\obj\Debug\Homework6-FinalProject.exe
+C:\Source\foundations\Homework\Homework6-FinalProject\obj\Debug\Homework6-FinalProject.pdb

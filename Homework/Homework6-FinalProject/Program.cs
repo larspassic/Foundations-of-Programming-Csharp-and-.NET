@@ -11,7 +11,8 @@ namespace Homework6_FinalProject
         static void Main(string[] args)
         {
             //Introduction instructions
-
+            Console.WriteLine("Please make a selection:\nA)dd\nU)pdate\nD)elete");
+            Console.ReadLine();
         }
     }
 }
