@@ -10,9 +10,37 @@ namespace Homework6_FinalProject
     {
         static void Main(string[] args)
         {
-            //Introduction instructions
-            Console.WriteLine("Please make a selection:\nA)dd\nU)pdate\nD)elete");
-            Console.ReadLine();
+            while (true)
+            {
+
+                //Introduction instructions
+                Console.WriteLine("Please make a selection:\nA)dd an item\nC)hange an item\nD)elete\nL)ist all items\nQuit");
+
+                string strUserInput = Console.ReadLine();
+                
+                switch (strUserInput)
+                {
+                    case "A":
+                        break;
+                    
+                    case "C":
+                        break;
+                    
+                    case "D":
+                        break;
+                    
+                    case "L":
+                        break;
+                    
+                    case "Q":
+                        break;
+                    
+                    default:
+                        break;
+                }
+                
+                Console.ReadLine();
+            }
         }
     }
 }
