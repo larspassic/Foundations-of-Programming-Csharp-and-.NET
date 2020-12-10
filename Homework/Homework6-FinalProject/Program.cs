@@ -11,7 +11,7 @@ namespace Homework6_FinalProject
     {
         string itemNumber;
         string description;
-        float externalCost;
+        float retailPrice;
         float internalCost;
         int quantityOnHand;
         float itemValue;
@@ -36,6 +36,14 @@ namespace Homework6_FinalProject
                     case "A":
                     case "a":
                         Console.WriteLine("Case A");
+                        //Prompt user for item description
+
+                        //Prompt user for item quantity
+
+                        //Prompt user for internal cost
+
+                        //Prompt user for retail price
+
                         break;
                     
                     case "C":
