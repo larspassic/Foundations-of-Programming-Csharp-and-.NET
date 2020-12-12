@@ -35,14 +35,27 @@ namespace Homework6_FinalProject
                 {
                     case "A":
                     case "a":
-                        Console.WriteLine("Case A");
+                        Console.WriteLine("ADD AN ITEM");
+                        
                         //Prompt user for item description
+                        Console.Write("Item description:");
+                        string strInputDescription = Console.ReadLine();
 
                         //Prompt user for item quantity
 
                         //Prompt user for internal cost
 
                         //Prompt user for retail price
+
+                        //Set item description
+
+                        //Set item quantity
+
+                        //Set internal cost
+
+                        //Set retail price
+
+
 
                         break;
                     
