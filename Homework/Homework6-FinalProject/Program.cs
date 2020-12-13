@@ -6,36 +6,39 @@ using System.Threading.Tasks;
 
 namespace Homework6_FinalProject
 {
-    
+
     struct Item
     {
         string ItemNumber;
         string Description;
-        float RetailPrice;
-        float InternalCost;
         int QuantityOnHand;
+        float InternalCost;
+        float RetailPrice;
         float ItemValue;
 
         static int nextItemNumber = 100;
 
-        public Item (string description, float retailPrice, float internalCost, int quantityOnHand)
+        public Item(string description, float retailPrice, float internalCost, int quantityOnHand)
         {
             ItemNumber = "ITEM" + nextItemNumber;
             Description = description;
+            QuantityOnHand = quantityOnHand;
             RetailPrice = retailPrice;
             InternalCost = internalCost;
-            QuantityOnHand = quantityOnHand;
+
             ItemValue = retailPrice * quantityOnHand;
             nextItemNumber++;
         }
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+            var numberOfItems = 0;
             var items = new Item[10];
-            
+
             while (true)
             {
 
@@ -44,14 +47,14 @@ namespace Homework6_FinalProject
 
                 //Take input from the user
                 string strUserInput = Console.ReadLine();
-                
+
                 //Main switch statement
                 switch (strUserInput)
                 {
                     case "A":
                     case "a":
                         Console.WriteLine("ADD AN ITEM");
-                        
+
                         //Prompt user for item description
                         Console.Write("Item description:");
                         string strDescription = Console.ReadLine();
@@ -71,37 +74,52 @@ namespace Homework6_FinalProject
                         string strRetailPrice = Console.ReadLine();
                         float floatRetailPrice = float.Parse(strRetailPrice);
 
-                        new Item(strDescription, floatRetailPrice, floatInternalCost, intQuantity);
+                        items[numberOfItems] = new Item(strDescription, floatRetailPrice, floatInternalCost, intQuantity);
 
+                        numberOfItems++;
                         break;
-                    
+
                     case "C":
                     case "c":
                         Console.WriteLine("Case C");
                         break;
-                    
+
                     case "D":
                     case "d":
                         Console.WriteLine("Case D");
                         break;
-                    
+
                     case "L":
                     case "l":
-                        Console.WriteLine("Case L");
+                        Console.WriteLine("LIST ITEMS");
+                        if (numberOfItems == 0)
+                        {
+                            Console.WriteLine("No items");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Item Number, Description, Quantity, Cost, Price, Value");
+                            for (int loopInt = 0; loopInt < numberOfItems; loopInt++)
+                            {
+                                Console.WriteLine($"{items[loopInt].ItemNumber},");
+                            }
+                        }
+
+
                         break;
-                    
+
                     case "Q":
                     case "q":
-                        Console.WriteLine("Case Q");
-                        Environment.Exit(0);
-                        break;
-                    
+                        //Console.WriteLine("Case Q");
+                        //Environment.Exit(0);
+                        return;
+
                     default:
                         Console.WriteLine("Default case");
 
                         break;
                 }
-                
+
                 Console.ReadLine();
             }
         }
