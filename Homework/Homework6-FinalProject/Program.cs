@@ -34,6 +34,8 @@ namespace Homework6_FinalProject
     {
         static void Main(string[] args)
         {
+            var items = new Item[10];
+            
             while (true)
             {
 
@@ -52,23 +54,24 @@ namespace Homework6_FinalProject
                         
                         //Prompt user for item description
                         Console.Write("Item description:");
-                        string strInputDescription = Console.ReadLine();
+                        string strDescription = Console.ReadLine();
 
                         //Prompt user for item quantity
+                        Console.Write("Item quantity:");
+                        string strQuantity = Console.ReadLine();
+                        int intQuantity = int.Parse(strQuantity);
 
                         //Prompt user for internal cost
+                        Console.Write("Internal cost:");
+                        string strInternalCost = Console.ReadLine();
+                        float floatInternalCost = float.Parse(strInternalCost);
 
                         //Prompt user for retail price
+                        Console.Write("Retail price:");
+                        string strRetailPrice = Console.ReadLine();
+                        float floatRetailPrice = float.Parse(strRetailPrice);
 
-                        //Set item description
-
-                        //Set item quantity
-
-                        //Set internal cost
-
-                        //Set retail price
-
-
+                        new Item(strDescription, floatRetailPrice, floatInternalCost, intQuantity);
 
                         break;
                     
