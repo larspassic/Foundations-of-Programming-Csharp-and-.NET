@@ -9,18 +9,18 @@ namespace Homework6_FinalProject
 
     struct Item
     {
-        string ItemNumber;
-        string Description;
-        int QuantityOnHand;
-        float InternalCost;
-        float RetailPrice;
-        float ItemValue;
+        public int ItemNumber;
+        public string Description;
+        public int QuantityOnHand;
+        public float InternalCost;
+        public float RetailPrice;
+        public float ItemValue;
 
         static int nextItemNumber = 100;
 
         public Item(string description, float retailPrice, float internalCost, int quantityOnHand)
         {
-            ItemNumber = "ITEM" + nextItemNumber;
+            ItemNumber = nextItemNumber;
             Description = description;
             QuantityOnHand = quantityOnHand;
             RetailPrice = retailPrice;
@@ -98,10 +98,12 @@ namespace Homework6_FinalProject
                         }
                         else
                         {
-                            Console.WriteLine("Item Number, Description, Quantity, Cost, Price, Value");
+                            Console.WriteLine("Item# Description Quantity Cost Price Value");
+                            Console.WriteLine("----- ----------- -------- ---- ----- -----");
+
                             for (int loopInt = 0; loopInt < numberOfItems; loopInt++)
                             {
-                                Console.WriteLine($"{items[loopInt].ItemNumber},");
+                                Console.WriteLine($"{items[loopInt].ItemNumber},{items[loopInt].Description},{items[loopInt].QuantityOnHand},{items[loopInt].InternalCost},{items[loopInt].RetailPrice},{items[loopInt].ItemValue}");
                             }
                         }
 
