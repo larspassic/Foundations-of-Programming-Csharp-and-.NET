@@ -9,12 +9,25 @@ namespace Homework6_FinalProject
     
     struct Item
     {
-        string itemNumber;
-        string description;
-        float retailPrice;
-        float internalCost;
-        int quantityOnHand;
-        float itemValue;
+        string ItemNumber;
+        string Description;
+        float RetailPrice;
+        float InternalCost;
+        int QuantityOnHand;
+        float ItemValue;
+
+        static int nextItemNumber = 100;
+
+        public Item (string description, float retailPrice, float internalCost, int quantityOnHand)
+        {
+            ItemNumber = "ITEM" + nextItemNumber;
+            Description = description;
+            RetailPrice = retailPrice;
+            InternalCost = internalCost;
+            QuantityOnHand = quantityOnHand;
+            ItemValue = retailPrice * quantityOnHand;
+            nextItemNumber++;
+        }
     }
 
     class Program
@@ -77,10 +90,12 @@ namespace Homework6_FinalProject
                     case "Q":
                     case "q":
                         Console.WriteLine("Case Q");
+                        Environment.Exit(0);
                         break;
                     
                     default:
                         Console.WriteLine("Default case");
+
                         break;
                 }
                 
