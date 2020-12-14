@@ -43,10 +43,12 @@ namespace Homework6_FinalProject
             {
 
                 //Introduction instructions
-                Console.WriteLine("Please make a selection:\nA)dd an item\nC)hange an item\nD)elete\nL)ist all items\nQuit");
+                Console.WriteLine("Please make a selection:\nA)dd an item\nC)hange an item\nD)elete\nL)ist all items\nQuit\n");
+                Console.Write("User input:");
 
                 //Take input from the user
                 string strUserInput = Console.ReadLine();
+                Console.WriteLine();
 
                 //Main switch statement
                 switch (strUserInput)
@@ -98,12 +100,12 @@ namespace Homework6_FinalProject
                         }
                         else
                         {
-                            Console.WriteLine("Item# Description Quantity Cost Price Value");
-                            Console.WriteLine("----- ----------- -------- ---- ----- -----");
+                            Console.WriteLine("Item# Description Quantity CostPerItem PricePerItem TotalValue");
+                            Console.WriteLine("----- ----------- -------- ----------- ------------ ----------");
 
                             for (int loopInt = 0; loopInt < numberOfItems; loopInt++)
                             {
-                                Console.WriteLine($"{items[loopInt].ItemNumber},{items[loopInt].Description},{items[loopInt].QuantityOnHand},{items[loopInt].InternalCost},{items[loopInt].RetailPrice},{items[loopInt].ItemValue}");
+                                Console.WriteLine($"{items[loopInt].ItemNumber, -5} {items[loopInt].Description, -11} {items[loopInt].QuantityOnHand, -8} {items[loopInt].InternalCost, -11:C} {items[loopInt].RetailPrice, -12:C} {items[loopInt].ItemValue, -10:C}");
                             }
                         }
 
@@ -121,6 +123,8 @@ namespace Homework6_FinalProject
 
                         break;
                 }
+
+
 
                 Console.ReadLine();
             }
