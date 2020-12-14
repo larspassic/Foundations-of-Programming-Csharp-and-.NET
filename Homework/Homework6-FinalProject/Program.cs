@@ -111,11 +111,33 @@ namespace Homework6_FinalProject
                         Console.WriteLine("##################\n# CHANGE AN ITEM #\n##################");
                         
                         //First list the items out
-                        Item.ListItems(numberOfItems, items); 
+                        Item.ListItems(numberOfItems, items);
 
                         //Prompt the user for input
+                        Console.WriteLine("Which item do you want to change? Please enter the item number.");
+
+                        //Accept input from user
+                        string strChangeInput = Console.ReadLine();
+                        int intChangeInput = int.Parse(strChangeInput);
+
+                        //Loop to find the item
+                        int itemFoundIndex = 0;
+                        bool itemFoundBool = false;
+                        for (int index = 0; index < numberOfItems; index++)
+                        {
+                            if (items[index].ItemNumber == intChangeInput)
+                            {
+                                itemFoundIndex = index;
+                                itemFoundBool = true;
+                            }
 
 
+                        }
+                        if (itemFoundBool == false)
+                        {
+                            Console.WriteLine("Item was not found, returning to main menu.");
+                            break;
+                        }
 
                         Console.WriteLine(); //Extra line at the end
                         break;
