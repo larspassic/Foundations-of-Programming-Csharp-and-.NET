@@ -109,29 +109,33 @@ namespace Homework6_FinalProject
                     case "C":
                     case "c":
                         Console.WriteLine("##################\n# CHANGE AN ITEM #\n##################");
+                        
+                        //First list the items out
+                        Item.ListItems(numberOfItems, items); 
 
-                        Item.ListItems(numberOfItems, items);                        //First list the items out
-                        //If there are no items, tell the user
+                        //Prompt the user for input
 
-                        //Loop through the items
 
-                        //Instruct the user 
 
-                        Console.WriteLine();
+                        Console.WriteLine(); //Extra line at the end
                         break;
 
                     case "D":
                     case "d":
                         Console.WriteLine("##################\n# DELETE AN ITEM #\n##################");
+                        
+                        //First list the items out
                         Item.ListItems(numberOfItems, items);
 
-                        Console.WriteLine();
+                        //Prompt user for input
+
+                        Console.WriteLine(); //Extra line at the end
                         break;
 
                     case "L":
                     case "l":
+                        //Use the ListItems method to list out the items
                         Item.ListItems(numberOfItems, items);
-
 
                         break;
 
