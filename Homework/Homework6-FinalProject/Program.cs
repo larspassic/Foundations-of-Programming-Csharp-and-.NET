@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,7 +44,7 @@ namespace Homework6_FinalProject
             {
 
                 //Introduction instructions
-                Console.WriteLine("Please make a selection:\nA)dd an item\nC)hange an item\nD)elete\nL)ist all items\nQuit\n");
+                Console.WriteLine("#############\n# MAIN MENU #\n#############\nA)dd an item\nC)hange an item\nD)elete\nL)ist all items\nQ)uit\n");
                 Console.Write("User input:");
 
                 //Take input from the user
@@ -55,7 +56,8 @@ namespace Homework6_FinalProject
                 {
                     case "A":
                     case "a":
-                        Console.WriteLine("ADD AN ITEM");
+                        
+                        Console.WriteLine("###############\n# ADD AN ITEM #\n###############");
 
                         //Prompt user for item description
                         Console.Write("Item description:");
@@ -78,27 +80,35 @@ namespace Homework6_FinalProject
 
                         items[numberOfItems] = new Item(strDescription, floatRetailPrice, floatInternalCost, intQuantity);
 
-                        numberOfItems++;
+                        numberOfItems++; //iterate the total amount of items in the database
+                        Console.WriteLine();
                         break;
 
                     case "C":
                     case "c":
-                        Console.WriteLine("Case C");
+                        Console.WriteLine("##################\n# CHANGE AN ITEM #\n##################");
+                        
+                        
+                        Console.WriteLine();
                         break;
 
                     case "D":
                     case "d":
-                        Console.WriteLine("Case D");
+                        Console.WriteLine("##################\n# DELETE AN ITEM #\n##################");
+                        
+                        
+                        Console.WriteLine();
                         break;
 
                     case "L":
                     case "l":
-                        Console.WriteLine("LIST ITEMS");
-                        if (numberOfItems == 0)
+                        Console.WriteLine("##############\n# LIST ITEMS #\n##############"); 
+                        
+                        if (numberOfItems == 0) //Check if the database is empty
                         {
-                            Console.WriteLine("No items");
+                            Console.WriteLine("No items were found. Returning to main menu.\n");
                         }
-                        else
+                        else //If the database isn't empty then loop through everything in to a table
                         {
                             Console.WriteLine("Item# Description Quantity CostPerItem PricePerItem TotalValue");
                             Console.WriteLine("----- ----------- -------- ----------- ------------ ----------");
@@ -107,6 +117,8 @@ namespace Homework6_FinalProject
                             {
                                 Console.WriteLine($"{items[loopInt].ItemNumber, -5} {items[loopInt].Description, -11} {items[loopInt].QuantityOnHand, -8} {items[loopInt].InternalCost, -11:C} {items[loopInt].RetailPrice, -12:C} {items[loopInt].ItemValue, -10:C}");
                             }
+                            
+                            Console.WriteLine();
                         }
 
 
@@ -114,19 +126,27 @@ namespace Homework6_FinalProject
 
                     case "Q":
                     case "q":
-                        //Console.WriteLine("Case Q");
-                        //Environment.Exit(0);
-                        return;
+                        Console.WriteLine("Are you sure you want to quit? WARNING: All items in the in-memory database application will be  lost. (Y/N)\n");
+                        Console.Write("User input:");
+                        string strQuit = Console.ReadLine(); //Ask user for input
+                        strQuit = strQuit.ToLower(); //Make it lowercase to simplify the next decision
+                        
+                        if (strQuit == "y") //Only quit if we have a Y or y positive confirmation
+                        {
+                            return;
+                        }
+                        else //Otherwise return to main menu
+                        {
+                            Console.WriteLine("\nReturning to main menu.\n");
+                        }
+                        break;
+
 
                     default:
-                        Console.WriteLine("Default case");
+                        Console.WriteLine("That was not a valid input. Please try again.\n");
 
                         break;
                 }
-
-
-
-                Console.ReadLine();
             }
         }
     }
