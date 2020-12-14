@@ -31,6 +31,28 @@ namespace Homework6_FinalProject
             nextItemNumber++;
         }
 
+        public static void ListItems(int numberOfItems, Item[] items)
+        {
+            Console.WriteLine("##############\n# LIST ITEMS #\n##############");
+
+            if (numberOfItems == 0) //Check if the database is empty
+            {
+                Console.WriteLine("No items were found. Returning to main menu.\n");
+            }
+            else //If the database isn't empty then loop through everything in to a table
+            {
+                Console.WriteLine("Item# Description Quantity CostPerItem PricePerItem TotalValue");
+                Console.WriteLine("----- ----------- -------- ----------- ------------ ----------");
+
+                for (int loopInt = 0; loopInt < numberOfItems; loopInt++)
+                {
+                    Console.WriteLine($"{items[loopInt].ItemNumber,-5} {items[loopInt].Description,-11} {items[loopInt].QuantityOnHand,-8} {items[loopInt].InternalCost,-11:C} {items[loopInt].RetailPrice,-12:C} {items[loopInt].ItemValue,-10:C}");
+                }
+
+                Console.WriteLine();
+            }
+        }
+
     }
 
     class Program
@@ -87,39 +109,28 @@ namespace Homework6_FinalProject
                     case "C":
                     case "c":
                         Console.WriteLine("##################\n# CHANGE AN ITEM #\n##################");
-                        
-                        
+
+                        Item.ListItems(numberOfItems, items);                        //First list the items out
+                        //If there are no items, tell the user
+
+                        //Loop through the items
+
+                        //Instruct the user 
+
                         Console.WriteLine();
                         break;
 
                     case "D":
                     case "d":
                         Console.WriteLine("##################\n# DELETE AN ITEM #\n##################");
-                        
-                        
+                        Item.ListItems(numberOfItems, items);
+
                         Console.WriteLine();
                         break;
 
                     case "L":
                     case "l":
-                        Console.WriteLine("##############\n# LIST ITEMS #\n##############"); 
-                        
-                        if (numberOfItems == 0) //Check if the database is empty
-                        {
-                            Console.WriteLine("No items were found. Returning to main menu.\n");
-                        }
-                        else //If the database isn't empty then loop through everything in to a table
-                        {
-                            Console.WriteLine("Item# Description Quantity CostPerItem PricePerItem TotalValue");
-                            Console.WriteLine("----- ----------- -------- ----------- ------------ ----------");
-
-                            for (int loopInt = 0; loopInt < numberOfItems; loopInt++)
-                            {
-                                Console.WriteLine($"{items[loopInt].ItemNumber, -5} {items[loopInt].Description, -11} {items[loopInt].QuantityOnHand, -8} {items[loopInt].InternalCost, -11:C} {items[loopInt].RetailPrice, -12:C} {items[loopInt].ItemValue, -10:C}");
-                            }
-                            
-                            Console.WriteLine();
-                        }
+                        Item.ListItems(numberOfItems, items);
 
 
                         break;
