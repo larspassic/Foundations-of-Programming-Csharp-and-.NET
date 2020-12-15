@@ -22,7 +22,7 @@ class Factorial
             //1. What happened? 
             //2. where did this happen?
             Console.WriteLine($"Computing {nComputeTo}! caused an overflow {e.StackTrace}");
-            return;
+
         }
         
         
