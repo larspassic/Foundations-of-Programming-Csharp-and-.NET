@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Source\foundations\Labs\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Source\foundations\Labs\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Source\foundations\Labs\ExceptionHandling\obj\Debug\ExceptionHandling.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Source\foundations\Labs\ExceptionHandling\obj\Debug\ExceptionHandling.pdb

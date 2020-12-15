@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\DontUseExceptions\bin\Debug\DontUseExceptions.exe.config
+C:\Source\foundations\Labs\DontUseExceptions\bin\Debug\DontUseExceptions.exe
+C:\Source\foundations\Labs\DontUseExceptions\bin\Debug\DontUseExceptions.pdb
+C:\Source\foundations\Labs\DontUseExceptions\obj\Debug\DontUseExceptions.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\DontUseExceptions\obj\Debug\DontUseExceptions.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\DontUseExceptions\obj\Debug\DontUseExceptions.exe
+C:\Source\foundations\Labs\DontUseExceptions\obj\Debug\DontUseExceptions.pdb
