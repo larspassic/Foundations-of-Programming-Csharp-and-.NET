@@ -20,6 +20,7 @@ class FileMain
         streamWriter.WriteLine("berry");
         streamWriter.WriteLine("cherry");
         streamWriter.WriteLine("date");
+        streamWriter.WriteLine();
         streamWriter.WriteLine("elderberry");
 
         // C. Close the writer

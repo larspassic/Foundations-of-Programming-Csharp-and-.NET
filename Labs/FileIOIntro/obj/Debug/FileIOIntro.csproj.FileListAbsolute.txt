@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\FileIOIntro\bin\Debug\FileIOIntro.exe.config
+C:\Source\foundations\Labs\FileIOIntro\bin\Debug\FileIOIntro.exe
+C:\Source\foundations\Labs\FileIOIntro\bin\Debug\FileIOIntro.pdb
+C:\Source\foundations\Labs\FileIOIntro\obj\Debug\FileIOIntro.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\FileIOIntro\obj\Debug\FileIOIntro.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\FileIOIntro\obj\Debug\FileIOIntro.exe
+C:\Source\foundations\Labs\FileIOIntro\obj\Debug\FileIOIntro.pdb
