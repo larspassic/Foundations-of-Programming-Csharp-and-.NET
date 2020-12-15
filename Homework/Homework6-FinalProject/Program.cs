@@ -40,21 +40,7 @@ namespace Homework6_FinalProject
                 Console.WriteLine("No items were found. Returning to main menu.\n");
                 return;
             }
-            if (items.Length == 100)
-            {
-                Console.WriteLine("Item database has reached it's maximum size of 100 entries.");
-                return;
-            }
-            
-            if (numberOfItems == items.Length - 1) //Check if we only have one slot left, we need to grow the array
-            {
-                Item[] newArray = new Item[items.Length * 2]; //Grow the array
-                for (int entry = 0; entry < items.Length; entry++) //Manually update each entry
-                {
-                    newArray[entry] = items[entry];
-                }
-                items = newArray;
-            }
+
             
             else //If the database isn't empty then loop through everything in to a table
             {
@@ -99,6 +85,22 @@ namespace Homework6_FinalProject
                     case "a":
                         
                         Console.WriteLine("###############\n# ADD AN ITEM #\n###############");
+
+                        if (items.Length == 100)
+                        {
+                            Console.WriteLine("Item database has reached it's maximum size of 100 entries.");
+                            return;
+                        }
+
+                        if (numberOfItems == items.Length - 1) //Check if we only have one slot left, we need to grow the array
+                        {
+                            Item[] newArray = new Item[items.Length * 2]; //Grow the array
+                            for (int entry = 0; entry < items.Length; entry++) //Manually update each entry
+                            {
+                                newArray[entry] = items[entry];
+                            }
+                            items = newArray;
+                        }
 
                         //Prompt user for item description
                         Console.Write("Item description:");
