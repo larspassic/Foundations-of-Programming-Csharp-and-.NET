@@ -1,5 +1,6 @@
 ﻿using System;
 
+/* //Commenting this out to transform into Interface model
 abstract class Transaction
 {
     public double Amount;
@@ -7,13 +8,24 @@ abstract class Transaction
 
     public abstract void Print();
 }
+*/
 
-class Check : Transaction
+interface ITransaction
+{
+    double Amount { get; set; }
+    string Description { get; set; }
+
+    void Print();
+}
+
+class Check : ITransaction
 {
     public int CheckNumber;
     public string Payee;
+    public double Amount { get; set; }
+    public string Description { get; set; }
 
-    public override void Print()
+    public void Print()
     {
         Console.WriteLine("-Check-");
         Console.WriteLine("Check Number : {0}", CheckNumber);
@@ -21,11 +33,15 @@ class Check : Transaction
         Console.WriteLine("Amount       : {0:C}", -Amount);
         Console.WriteLine("Description  : {0}", Description);
     }
+
+
 }
 
-class Withdrawal : Transaction
+class Withdrawal : ITransaction
 {
-    public override void Print()
+    public double Amount { get; set; }
+    public string Description { get; set; }
+    public void Print()
     {
         Console.WriteLine("-Withdrawal-");
         Console.WriteLine("Amount      : {0:C}", -Amount);
@@ -33,11 +49,13 @@ class Withdrawal : Transaction
     }
 }
 
-class Deposit : Transaction
+class Deposit : ITransaction
 {
     public string From;
+    public double Amount { get; set; }
+    public string Description { get; set; }
 
-    public override void Print()
+    public void Print()
     {
         Console.WriteLine("-Deposit-");
         Console.WriteLine("From        : {0}", From);
@@ -50,7 +68,7 @@ class Program
 {
     static void Main()
     {
-        var checkbook = new Transaction[10];
+        var checkbook = new ITransaction[10];
         var maxTransactions = 0;
 
         while (true)
