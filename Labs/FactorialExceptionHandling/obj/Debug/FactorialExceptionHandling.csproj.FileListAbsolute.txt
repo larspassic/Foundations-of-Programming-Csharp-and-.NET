@@ -1,0 +1,7 @@
+C:\Source\foundations\Labs\FactorialExceptionHandling\bin\Debug\FactorialExceptionHandling.exe.config
+C:\Source\foundations\Labs\FactorialExceptionHandling\bin\Debug\FactorialExceptionHandling.exe
+C:\Source\foundations\Labs\FactorialExceptionHandling\bin\Debug\FactorialExceptionHandling.pdb
+C:\Source\foundations\Labs\FactorialExceptionHandling\obj\Debug\FactorialExceptionHandling.csprojAssemblyReference.cache
+C:\Source\foundations\Labs\FactorialExceptionHandling\obj\Debug\FactorialExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Labs\FactorialExceptionHandling\obj\Debug\FactorialExceptionHandling.exe
+C:\Source\foundations\Labs\FactorialExceptionHandling\obj\Debug\FactorialExceptionHandling.pdb
