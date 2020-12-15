@@ -38,7 +38,24 @@ namespace Homework6_FinalProject
             if (numberOfItems == 0) //Check if the database is empty
             {
                 Console.WriteLine("No items were found. Returning to main menu.\n");
+                return;
             }
+            if (items.Length == 100)
+            {
+                Console.WriteLine("Item database has reached it's maximum size of 100 entries.");
+                return;
+            }
+            
+            if (numberOfItems == items.Length - 1) //Check if we only have one slot left, we need to grow the array
+            {
+                Item[] newArray = new Item[items.Length * 2]; //Grow the array
+                for (int entry = 0; entry < items.Length; entry++) //Manually update each entry
+                {
+                    newArray[entry] = items[entry];
+                }
+                items = newArray;
+            }
+            
             else //If the database isn't empty then loop through everything in to a table
             {
                 Console.WriteLine("Item# Description Quantity CostPerItem PricePerItem TotalValue");
@@ -203,10 +220,14 @@ namespace Homework6_FinalProject
                         {
                             items[index] = items[index + 1];
                         }
+                        
                         //Inform the user of the change
                         Console.WriteLine("Item deleted successfully.");
                         Console.WriteLine();
                         Item.ListItems(numberOfItems, items);
+
+                        //Reduce number of items
+                        numberOfItems--;
 
                         Console.WriteLine(); //Extra line at the end
                         break;
