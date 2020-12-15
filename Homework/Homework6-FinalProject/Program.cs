@@ -53,6 +53,8 @@ namespace Homework6_FinalProject
             }
         }
 
+
+
     }
 
     class Program
@@ -117,21 +119,49 @@ namespace Homework6_FinalProject
                         Console.WriteLine("Which item do you want to change? Please enter the item number.");
 
                         //Accept input from user
-                        string strChangeInput = Console.ReadLine();
-                        int intChangeInput = int.Parse(strChangeInput);
+                        string strItemToChange = Console.ReadLine();
+                        int intItemToChange = int.Parse(strItemToChange);
 
-                        //Loop to find the item
+                        //Loop to find the item's array index
                         int itemFoundIndex = 0;
                         bool itemFoundBool = false;
                         for (int index = 0; index < numberOfItems; index++)
                         {
-                            if (items[index].ItemNumber == intChangeInput)
+                            if (items[index].ItemNumber == intItemToChange)
                             {
                                 itemFoundIndex = index;
                                 itemFoundBool = true;
                             }
+                        }
+                        if (itemFoundBool == true)
+                        {
+                            //Prompt user for item description
+                            Console.Write("Updated Item description:");
+                            strDescription = Console.ReadLine();
 
+                            //Prompt user for item quantity
+                            Console.Write("Updated Item quantity:");
+                            strQuantity = Console.ReadLine();
+                            intQuantity = int.Parse(strQuantity);
 
+                            //Prompt user for internal cost
+                            Console.Write("Updated Internal cost:");
+                            strInternalCost = Console.ReadLine();
+                            floatInternalCost = float.Parse(strInternalCost);
+
+                            //Prompt user for retail price
+                            Console.Write("Updated Retail price:");
+                            strRetailPrice = Console.ReadLine();
+                            floatRetailPrice = float.Parse(strRetailPrice);
+
+                            //Use the index to write over the item
+                            items[itemFoundIndex] = new Item(strDescription, floatRetailPrice, floatInternalCost, intQuantity);
+
+                            //Inform the user of the change
+                            Console.WriteLine("Item updated successfully.");
+                            Console.WriteLine();
+                            Item.ListItems(numberOfItems, items);
+                            
                         }
                         if (itemFoundBool == false)
                         {
@@ -150,6 +180,33 @@ namespace Homework6_FinalProject
                         Item.ListItems(numberOfItems, items);
 
                         //Prompt user for input
+                        //Prompt the user for input
+                        Console.WriteLine("Which item do you want to delete? Please enter the item number.");
+
+                        //Accept input from user
+                        string strItemToDelete = Console.ReadLine();
+                        int intItemToDelete = int.Parse(strItemToDelete);
+
+                        //Loop to find the item's array index
+                        itemFoundIndex = 0;
+                        itemFoundBool = false;
+                        for (int index = 0; index < numberOfItems; index++)
+                        {
+                            if (items[index].ItemNumber == intItemToDelete)
+                            {
+                                itemFoundIndex = index;
+                                itemFoundBool = true;
+                            }
+                        }
+
+                        for (int index = itemFoundIndex; index < numberOfItems; index++)
+                        {
+                            items[index] = items[index + 1];
+                        }
+                        //Inform the user of the change
+                        Console.WriteLine("Item deleted successfully.");
+                        Console.WriteLine();
+                        Item.ListItems(numberOfItems, items);
 
                         Console.WriteLine(); //Extra line at the end
                         break;
