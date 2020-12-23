@@ -1,0 +1,13 @@
+C:\Source\foundations\Challenges\IsAStringAPalindrome\bin\Debug\netcoreapp3.1\IsAStringAPalindrome.exe
+C:\Source\foundations\Challenges\IsAStringAPalindrome\bin\Debug\netcoreapp3.1\IsAStringAPalindrome.deps.json
+C:\Source\foundations\Challenges\IsAStringAPalindrome\bin\Debug\netcoreapp3.1\IsAStringAPalindrome.runtimeconfig.json
+C:\Source\foundations\Challenges\IsAStringAPalindrome\bin\Debug\netcoreapp3.1\IsAStringAPalindrome.runtimeconfig.dev.json
+C:\Source\foundations\Challenges\IsAStringAPalindrome\bin\Debug\netcoreapp3.1\IsAStringAPalindrome.dll
+C:\Source\foundations\Challenges\IsAStringAPalindrome\bin\Debug\netcoreapp3.1\IsAStringAPalindrome.pdb
+C:\Source\foundations\Challenges\IsAStringAPalindrome\obj\Debug\netcoreapp3.1\IsAStringAPalindrome.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\IsAStringAPalindrome\obj\Debug\netcoreapp3.1\IsAStringAPalindrome.AssemblyInfoInputs.cache
+C:\Source\foundations\Challenges\IsAStringAPalindrome\obj\Debug\netcoreapp3.1\IsAStringAPalindrome.AssemblyInfo.cs
+C:\Source\foundations\Challenges\IsAStringAPalindrome\obj\Debug\netcoreapp3.1\IsAStringAPalindrome.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\IsAStringAPalindrome\obj\Debug\netcoreapp3.1\IsAStringAPalindrome.dll
+C:\Source\foundations\Challenges\IsAStringAPalindrome\obj\Debug\netcoreapp3.1\IsAStringAPalindrome.pdb
+C:\Source\foundations\Challenges\IsAStringAPalindrome\obj\Debug\netcoreapp3.1\IsAStringAPalindrome.genruntimeconfig.cache
