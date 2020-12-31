@@ -4,7 +4,7 @@ class Test
 {
     static void Main()
     {
-        int[] xlist = new int[] { 9,5,3,-2, 4, 5 };
+        int[] xlist = new int[] { 9,5};
 
         Console.WriteLine($"{xlist.Length}");
 
