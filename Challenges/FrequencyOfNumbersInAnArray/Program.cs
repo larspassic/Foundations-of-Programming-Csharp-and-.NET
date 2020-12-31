@@ -3,13 +3,22 @@
 namespace FrequencyOfNumbersInAnArray
 {
 
-    class Stack
+    class Stack //Create a Stack class to use in the program
     {
         private int[] stack = new int[10];
         private int sp = 0;
 
         public void Push (int v)
         {
+            if (sp == stack.Length) //Check if we need to grow the stack
+            {
+                int[] newArray = new int[stack.Length * 2];
+                for (int x=0; x<stack.Length; x++)
+                {
+                    newArray[x] = stack[x];
+                }
+                stack = newArray;
+            }
             stack[sp++] = v;
 
         }
@@ -45,8 +54,8 @@ namespace FrequencyOfNumbersInAnArray
             
             while (true)
             {
-                                
-                
+
+                var stack = new Stack();
 
                 while (true)
                 {
@@ -63,7 +72,7 @@ namespace FrequencyOfNumbersInAnArray
                     }
 
                     int userInputInt = int.Parse(userInput);
-
+                    stack.Push(userInputInt);
 
                 }
 
