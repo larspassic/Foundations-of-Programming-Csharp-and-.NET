@@ -5,7 +5,36 @@ namespace FrequencyOfNumbersInAnArray
 
     class Stack
     {
-        int[] stackInt = new int[10];
+        private int[] stack = new int[10];
+        private int sp = 0;
+
+        public void Push (int v)
+        {
+            stack[sp++] = v;
+
+        }
+
+        public int Pop()
+        {
+            return stack[--sp];
+        }
+
+        public int Top
+        {
+            get
+            {
+                return stack[sp - 1];
+            }
+
+        }
+
+        public bool IsEmpty
+        {
+            get
+            {
+                return sp == 0;
+            }
+        }
 
     }
 
@@ -17,7 +46,7 @@ namespace FrequencyOfNumbersInAnArray
             while (true)
             {
                                 
-                int[] stack = new int[10];
+                
 
                 while (true)
                 {
