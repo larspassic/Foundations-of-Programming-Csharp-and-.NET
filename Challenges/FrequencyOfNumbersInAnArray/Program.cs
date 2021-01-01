@@ -13,7 +13,7 @@ namespace FrequencyOfNumbersInAnArray
             if (sp == stack.Length) //Check if we need to grow the stack
             {
                 int[] newArray = new int[stack.Length * 2];
-                for (int x=0; x<stack.Length; x++)
+                for (int x = 0; x < stack.Length; x++)
                 {
                     newArray[x] = stack[x];
                 }
@@ -45,9 +45,37 @@ namespace FrequencyOfNumbersInAnArray
             }
         }
 
+        public int Length
+        {
+            get
+            {
+                return stack.Length;
+            }
+        }
+
+        public string Written
+        {
+            get
+            {
+                string writtenStack = "";
+                for (int x = 0; x < sp; x++)
+                {
+                    writtenStack += stack[x];
+                    if (x < sp - 1)
+                    {
+                        writtenStack += ", ";
+                    }
+                    
+                }
+                return writtenStack;
+            }
+        }
+
     }
 
-    class Program
+
+    
+    class Program //Main area of the program
     {
         static void Main(string[] args)
         {
@@ -57,16 +85,16 @@ namespace FrequencyOfNumbersInAnArray
 
                 var stack = new Stack();
 
-                while (true)
+                while (true) //Input loop to build a stack/array of numbers
                 {
                     
                     
                     //Ask the user to build an array of numbers
-                    Console.WriteLine("Enter an integer (whole) number between 0 and 100, or press enter to continue:");
+                    Console.WriteLine("Enter one integer (whole) number at a time, between 0 and 100, or press enter to continue:");
 
                     string userInput = Console.ReadLine();
 
-                    if (userInput == null)
+                    if (userInput == "") //User will press enter to break out of the input loop
                     {
                         break;
                     }
@@ -76,6 +104,13 @@ namespace FrequencyOfNumbersInAnArray
 
                 }
 
+                //User broke out of the input loop
+                Console.WriteLine("Now the program will determine the frequency of numbers in the array you created.");
+
+                //Output what the user has so far
+                Console.WriteLine($"The array you created was {stack.Written}");
+
+                //Do the calculation to figure out frequency
 
             }
         }

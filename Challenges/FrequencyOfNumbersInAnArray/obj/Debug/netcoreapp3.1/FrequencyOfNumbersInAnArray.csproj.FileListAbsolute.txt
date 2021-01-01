@@ -1,0 +1,13 @@
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.exe
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.deps.json
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.runtimeconfig.json
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.runtimeconfig.dev.json
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.dll
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.pdb
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.csprojAssemblyReference.cache
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.AssemblyInfoInputs.cache
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.AssemblyInfo.cs
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.csproj.CoreCompileInputs.cache
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.dll
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.pdb
+C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.genruntimeconfig.cache
