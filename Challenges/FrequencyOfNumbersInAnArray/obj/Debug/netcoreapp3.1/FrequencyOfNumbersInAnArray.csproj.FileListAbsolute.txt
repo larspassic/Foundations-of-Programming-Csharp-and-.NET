@@ -11,3 +11,16 @@ C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArr
 C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.dll
 C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.pdb
 C:\Users\larsp\Documents\GitHub\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.genruntimeconfig.cache
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.exe
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.deps.json
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.runtimeconfig.json
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.runtimeconfig.dev.json
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.dll
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\bin\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.pdb
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.csprojAssemblyReference.cache
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.AssemblyInfoInputs.cache
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.AssemblyInfo.cs
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.csproj.CoreCompileInputs.cache
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.dll
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.pdb
+C:\Source\foundations\Challenges\FrequencyOfNumbersInAnArray\obj\Debug\netcoreapp3.1\FrequencyOfNumbersInAnArray.genruntimeconfig.cache
