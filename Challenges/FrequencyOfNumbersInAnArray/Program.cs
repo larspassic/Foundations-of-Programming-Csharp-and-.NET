@@ -2,6 +2,11 @@
 
 namespace FrequencyOfNumbersInAnArray
 {
+    class NumberObject //Create a NumberObject class to store the counts of numbers in the array
+    {
+        public string NumberName;
+        public int NumberCount;
+    }
 
     class Stack //Create a Stack class to use in the program
     {
@@ -79,7 +84,9 @@ namespace FrequencyOfNumbersInAnArray
     {
         static void Main(string[] args)
         {
-            
+            //Create the main array of numbers to store the number objects
+            var numberArray = new NumberObject[100];
+
             while (true)
             {
 
@@ -90,7 +97,7 @@ namespace FrequencyOfNumbersInAnArray
                     
                     
                     //Ask the user to build an array of numbers
-                    Console.WriteLine("Enter one integer (whole) number at a time, between 0 and 100, or press enter to continue:");
+                    Console.WriteLine("Enter one integer (whole) number at a time, (between 0 and 100), or press enter to continue:");
 
                     string userInput = Console.ReadLine();
 
@@ -107,8 +114,13 @@ namespace FrequencyOfNumbersInAnArray
                 //User broke out of the input loop
                 Console.WriteLine("Now the program will determine the frequency of numbers in the array you created.");
 
+                //Pop the numbers off the stack and look for repeats and iterate if so
+
+
                 //Output what the user has so far
                 Console.WriteLine($"The array you created was {stack.Written}");
+
+                //Loop through the entire numberArray object to show the results
 
                 //Do the calculation to figure out frequency
 
