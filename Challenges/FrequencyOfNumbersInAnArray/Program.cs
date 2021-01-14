@@ -118,7 +118,17 @@ namespace FrequencyOfNumbersInAnArray
                 for (int i=1; i<stack.Length; i++)
                 {
                     string letter = stack[i];
-
+                    foreach (string loopletter in stack)
+                    {
+                        if (letter == loopletter)
+                        {
+                            numberArray[i].NumberCount++;
+                        }
+                        else
+                        {
+                            numberArray[i].NumberName = loopletter;
+                        }
+                    }
                 }
 
                 //Output what the user has so far
