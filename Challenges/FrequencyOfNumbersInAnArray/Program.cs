@@ -114,8 +114,12 @@ namespace FrequencyOfNumbersInAnArray
                 //User broke out of the input loop
                 Console.WriteLine("Now the program will determine the frequency of numbers in the array you created.");
 
-                //Pop the numbers off the stack and look for repeats and iterate if so
+                //Pop the number off the stack
+                for (int i=1; i<stack.Length; i++)
+                {
+                    string letter = stack[i];
 
+                }
 
                 //Output what the user has so far
                 Console.WriteLine($"The array you created was {stack.Written}");
