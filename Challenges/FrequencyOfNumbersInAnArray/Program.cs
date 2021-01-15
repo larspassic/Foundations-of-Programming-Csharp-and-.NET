@@ -90,9 +90,10 @@ namespace FrequencyOfNumbersInAnArray
             while (true)
             {
 
-                var stack = new Stack();
+                //var stack = new Stack(); //comment out the stack to hopefully stop using it... ooops...
+                int[] userInputNumberArray = new int[100];
 
-                while (true) //Input loop to build a stack/array of numbers
+                for (int inputLoopIndex = 0; inputLoopIndex < 100; inputLoopIndex++) //Input loop to build a stack/array of numbers
                 {
                     
                     
@@ -107,7 +108,8 @@ namespace FrequencyOfNumbersInAnArray
                     }
 
                     int userInputInt = int.Parse(userInput);
-                    stack.Push(userInputInt);
+                    //stack.Push(userInputInt); //commenting out stack stuff
+                    userInputNumberArray[inputLoopIndex] = userInputInt; //Using userInputNumberArray instead
 
                 }
 
