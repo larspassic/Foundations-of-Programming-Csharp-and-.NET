@@ -117,10 +117,10 @@ namespace FrequencyOfNumbersInAnArray
                 Console.WriteLine("Now the program will determine the frequency of numbers in the array you created.");
 
                 //Pop the number off the stack
-                for (int i=1; i<stack.Length; i++)
+                for (int i=1; i<userInputNumberArray.Length; i++)
                 {
-                    string letter = stack[i];
-                    foreach (string loopletter in stack)
+                    string letter =  [string]userInputNumberArray[i];
+                    foreach (string loopletter in userInputNumberArray)
                     {
                         if (letter == loopletter)
                         {
