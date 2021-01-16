@@ -119,7 +119,13 @@ namespace FrequencyOfNumbersInAnArray
                 //Pop the number off the stack
                 for (int i=1; i<userInputNumberArray.Length; i++)
                 {
+                    if (userInputNumberArray[i] == 0)
+                    {
+                        break;
+                    }
+                    
                     string letter =  userInputNumberArray[i].ToString();
+                    
                     foreach (int loopletter in userInputNumberArray)
                     {
                         if (letter == loopletter.ToString())
