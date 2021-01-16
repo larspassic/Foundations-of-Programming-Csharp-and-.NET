@@ -119,22 +119,22 @@ namespace FrequencyOfNumbersInAnArray
                 //Pop the number off the stack
                 for (int i=1; i<userInputNumberArray.Length; i++)
                 {
-                    string letter =  [string]userInputNumberArray[i];
-                    foreach (string loopletter in userInputNumberArray)
+                    string letter =  userInputNumberArray[i].ToString();
+                    foreach (int loopletter in userInputNumberArray)
                     {
-                        if (letter == loopletter)
+                        if (letter == loopletter.ToString())
                         {
                             numberArray[i].NumberCount++;
                         }
                         else
                         {
-                            numberArray[i].NumberName = loopletter;
+                            numberArray[i].NumberName = loopletter.ToString();
                         }
                     }
                 }
 
                 //Output what the user has so far
-                Console.WriteLine($"The array you created was {stack.Written}");
+                //Console.WriteLine($"The array you created was {stack.Written}"); //Comment this out because it isn't really needed anyway
 
                 //Loop through the entire numberArray object to show the results
 
